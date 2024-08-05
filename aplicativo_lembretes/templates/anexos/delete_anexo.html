@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excluir Anexo</title>
+</head>
+<body>
+    <h1>Excluir Anexo</h1>
+    <p>Tem certeza de que deseja excluir o anexo "{{ anexo.descricao }}"?</p>
+    <form method="post" action="{% url 'delete_anexo' anexo.pk %}">
+        {% csrf_token %}
+        <button type="submit">Sim, excluir</button>
+        <a href="{% url 'lista_anexos' anexo.lembrete_id %}">Cancelar</a>
+    </form>
+</body>
+</html>

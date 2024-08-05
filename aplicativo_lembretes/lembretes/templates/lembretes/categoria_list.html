@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Categorias</title>
+</head>
+<body>
+    <h1>Lista de Categorias</h1>
+    <ul>
+        {% for categoria in categorias %}
+            <li>{{ categoria.nome }} - {{ categoria.descricao }}
+                <a href="{% url 'edit_categoria' categoria.id %}">Editar</a>
+                <a href="{% url 'delete_categoria' categoria.id %}">Excluir</a>
+            </li>
+        {% endfor %}
+    </ul>
+    <a href="{% url 'create_categoria' %}">Criar Nova Categoria</a>
+</body>
+</html>

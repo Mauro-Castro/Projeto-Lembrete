@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar Lembrete</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Flatpickr CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.6.13/flatpickr.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="mb-4">Editar Lembrete</h1>
+        <form method="post" enctype="multipart/form-data">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <fieldset class="border p-3 mb-4">
+                <legend class="w-auto px-2">Anexos Existentes</legend>
+                <ul class="list-group">
+                    {% for anexo in lembrete.anexos.all %}
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        {{ anexo.descricao }}
+                        <div>
+                            <a href="{{ anexo.arquivo.url }}" class="btn btn-info btn-sm mr-2">Baixar</a>
+                            <a href="{% url 'edit_anexo' anexo.id %}" class="btn btn-warning btn-sm mr-2">Editar</a>
+                            <a href="{% url 'delete_anexo' anexo.id %}" class="btn btn-danger btn-sm">Excluir</a>
+                        </div>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </fieldset>
+            <fieldset class="border p-3 mb-4">
+                <legend class="w-auto px-2">Adicionar Novos Anexos</legend>
+                <input type="file" name="anexos" multiple class="form-control-file">
+            </fieldset>
+            <fieldset class="border p-3 mb-4">
+                <legend class="w-auto px-2">Listas</legend>
+                {% for lista in listas %}
+                <div class="form-check">
+                    <input type="checkbox" name="listas" value="{{ lista.id }}" id="lista_{{ lista.id }}"
+                    {% if lista.id in lembrete_listas_ids %} checked {% endif %} class="form-check-input">
+                    <label class="form-check-label" for="lista_{{ lista.id }}">{{ lista.nome }}</label>
+                </div>
+                {% endfor %}
+            </fieldset>
+            <button type="submit" class="btn btn-primary">Salvar Alterações</button>
+            <a href="{% url 'lista_lembretes' %}" class="btn btn-secondary">Voltar para a Lista de Lembretes</a>
+        </form>
+    </div>
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    <!-- Flatpickr JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.6.13/flatpickr.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            flatpickr("#id_data_lembrete", {
+                enableTime: true,
+                dateFormat: "Y-m-d H:i",
+                time_24hr: true
+            });
+        });
+    </script>
+</body>
+</html>

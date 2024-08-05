@@ -1,0 +1,1418 @@
+Watching for file changes with StatReloader
+Waiting for apps ready_event.
+Apps ready_event triggered. Sending autoreload_started signal.
+Watching dir C:\Projetos\Lembretes\aplicativo_lembretes\categorias\templates with glob **/*.
+Watching dir C:\Projetos\Lembretes\aplicativo_lembretes\usuarios\templates with glob **/*.
+Watching dir C:\Projetos\Lembretes\aplicativo_lembretes\templates with glob **/*.
+Watching dir C:\Projetos\Lembretes\aplicativo_lembretes\lembretes\templates with glob **/*.
+Watching dir C:\Projetos\Lembretes\aplicativo_lembretes\locale with glob **/*.mo.
+Watching dir C:\Projetos\Lembretes\aplicativo_lembretes\lembretes\locale with glob **/*.mo.
+Watching dir C:\Projetos\Lembretes\aplicativo_lembretes\categorias\locale with glob **/*.mo.
+Watching dir C:\Projetos\Lembretes\aplicativo_lembretes\usuarios\locale with glob **/*.mo.
+Watching dir C:\Projetos\Lembretes\aplicativo_lembretes\notificacoes\locale with glob **/*.mo.
+Watching dir C:\Projetos\Lembretes\aplicativo_lembretes\listas\locale with glob **/*.mo.
+Watching dir C:\Projetos\Lembretes\aplicativo_lembretes\prioridades\locale with glob **/*.mo.
+Watching dir C:\Projetos\Lembretes\aplicativo_lembretes\anexos\locale with glob **/*.mo.
+(0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+(0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\staticfiles\checks.py first seen with mtime 1722005915.6733108
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_futures.py first seen with mtime 1719350232.8747888
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\sessions\backends\base.py first seen with mtime 1722005915.028166
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\utils\connection.py first seen with mtime 1722005916.2241411
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\admin\templatetags\base.py first seen with mtime 1722005912.276039
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\asyncio\sslproto.py first seen with mtime 1719350232.889793
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\models\sql\datastructures.py first seen with mtime 1722005915.9923906
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\files\uploadhandler.py first seen with mtime 1722005915.7473311
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\template\loader_tags.py first seen with mtime 1722005916.1681278
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\template\base.py first seen with mtime 1722005916.1561253
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\sites\shortcuts.py first seen with mtime 1722005915.3592398
+File C:\Projetos\Lembretes\aplicativo_lembretes\lembretes\admin.py first seen with mtime 1722005971.0185728
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\auth\decorators.py first seen with mtime 1722005912.5946174
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\asyncio\tasks.py first seen with mtime 1719350232.8967936
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\admin\checks.py first seen with mtime 1722005911.4703257
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\asyncio\exceptions.py first seen with mtime 1719350232.8797898
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\handlers\base.py first seen with mtime 1722005915.7603343
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\opcode.py first seen with mtime 1719350234.8682363
+File C:\Projetos\Lembretes\aplicativo_lembretes\notificacoes\apps.py first seen with mtime 1722005974.7011344
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\messages\middleware.py first seen with mtime 1722005914.4200327
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\importlib\_abc.py first seen with mtime 1719350234.407133
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\backends\base\base.py first seen with mtime 1722005915.846354
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\template\autoreload.py first seen with mtime 1722005916.155125
+File C:\Projetos\Lembretes\aplicativo_lembretes\manage.py first seen with mtime 1722005947.891788
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\urls\conf.py first seen with mtime 1722005916.2081373
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\email\charset.py first seen with mtime 1719350233.1548517
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\shortcuts.py first seen with mtime 1722005910.9422064
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\ssl.py first seen with mtime 1719350236.9146967
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\utils\dates.py first seen with mtime 1722005916.2301426
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\utils\decorators.py first seen with mtime 1722005916.2331426
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\views\debug.py first seen with mtime 1722005916.2761538
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\contextvars.py first seen with mtime 1719350233.0568297
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\ctypes\__init__.py first seen with mtime 1719350233.0868368
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\utils\formats.py first seen with mtime 1722005916.239144
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\handlers\exception.py first seen with mtime 1722005915.7613342
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\template\response.py first seen with mtime 1722005916.1691284
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\utils\dateparse.py first seen with mtime 1722005916.2281413
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\middleware\__init__.py first seen with mtime 1722005916.1401222
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\ast.py first seen with mtime 1719350232.8717883
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\models\sql\__init__.py first seen with mtime 1722005915.987389
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\_compat_pickle.py first seen with mtime 1719350237.349795
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\backends\base\features.py first seen with mtime 1722005915.8493545
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\views\decorators\debug.py first seen with mtime 1722005916.2881556
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\asgiref\sync.py first seen with mtime 1722005910.738161
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\subprocess.py first seen with mtime 1719350236.9216983
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\logging\__init__.py first seen with mtime 1719350234.7312057
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\sessions\models.py first seen with mtime 1722005915.0251646
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\copyreg.py first seen with mtime 1719350233.05883
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\asyncio\log.py first seen with mtime 1719350232.8827906
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\views\generic\detail.py first seen with mtime 1722005916.2971594
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\email\mime\__init__.py first seen with mtime 1719350228.847885
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\numbers.py first seen with mtime 1719350234.8672369
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\models\sql\subqueries.py first seen with mtime 1722005915.9963918
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\quopri.py first seen with mtime 1719350234.9222486
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\template\loaders\cached.py first seen with mtime 1722005916.1831317
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\template\loaders\filesystem.py first seen with mtime 1722005916.1841316
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\DLLs\_ctypes.pyd first seen with mtime 1719350232.6417358
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\models\sql\where.py first seen with mtime 1722005915.9973915
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\admin\views\autocomplete.py first seen with mtime 1722005912.2790394
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\signal.py first seen with mtime 1719350234.9552562
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\conf\locale\__init__.py first seen with mtime 1722005910.95821
+File C:\Projetos\Lembretes\aplicativo_lembretes\prioridades\models.py first seen with mtime 1722006199.4558837
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\graphlib.py first seen with mtime 1719350233.7359824
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\zoneinfo\__init__.py first seen with mtime 1719350237.3347914
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\admin\helpers.py first seen with mtime 1722005911.4763277
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\sqlparse\engine\statement_splitter.py first seen with mtime 1722005910.2590528
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\serializers\python.py first seen with mtime 1722005915.8273492
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\re\_parser.py first seen with mtime 1719350234.9292502
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\migrations\operations\base.py first seen with mtime 1722005915.9367394
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\admin\sites.py first seen with mtime 1722005911.4803283
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\models\options.py first seen with mtime 1722005915.9573824
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\json\scanner.py first seen with mtime 1719350234.458145
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\email\errors.py first seen with mtime 1719350233.1578524
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\DLLs\_bz2.pyd first seen with mtime 1719350232.6397357
+File C:\Projetos\Lembretes\aplicativo_lembretes\anexos\admin.py first seen with mtime 1722005978.3505785
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\utils\html.py first seen with mtime 1722005916.2421446
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\template\backends\base.py first seen with mtime 1722005916.17313
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\asgiref\local.py first seen with mtime 1722005910.7331598
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\pkgutil.py first seen with mtime 1719350234.8822412
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\admin\templatetags\admin_list.py first seen with mtime 1722005912.2730377
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\sqlparse\exceptions.py first seen with mtime 1722005910.2460494
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\pprint.py first seen with mtime 1719350234.8882413
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\template\utils.py first seen with mtime 1722005916.1711287
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\handlers\wsgi.py first seen with mtime 1722005915.7633352
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\typing.py first seen with mtime 1719350237.0827348
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\queue.py first seen with mtime 1719350234.9212484
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\utils\encoding.py first seen with mtime 1722005916.2361436
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\signals.py first seen with mtime 1722005915.6983202
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\forms\forms.py first seen with mtime 1722005916.0073934
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\inspect.py first seen with mtime 1719350234.448143
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\reduction.py first seen with mtime 1719350234.7902188
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\auth\__init__.py first seen with mtime 1722005912.5846155
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\asyncio\taskgroups.py first seen with mtime 1719350232.8957932
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\files\storage\handler.py first seen with mtime 1722005915.7543342
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\backends\base\client.py first seen with mtime 1722005915.8473537
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\utils\autoreload.py first seen with mtime 1722005916.2201414
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\wsgiref\util.py first seen with mtime 1719350237.1947596
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\datetime.py first seen with mtime 1719350233.128846
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\http\multipartparser.py first seen with mtime 1722005916.1351209
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\DLLs\_asyncio.pyd first seen with mtime 1719350232.637736
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\dis.py first seen with mtime 1719350233.1498501
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\ctypes\wintypes.py first seen with mtime 1719350233.0828357
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\string.py first seen with mtime 1719350236.9186978
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\views\generic\base.py first seen with mtime 1722005916.2941563
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\template\loader.py first seen with mtime 1722005916.167128
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\urls\base.py first seen with mtime 1722005916.2071364
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\views\decorators\__init__.py first seen with mtime 1722005916.2811546
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\mail\__init__.py first seen with mtime 1722005915.7643354
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\servers\__init__.py first seen with mtime 1722005915.8323512
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\paginator.py first seen with mtime 1722005915.6963196
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\checks\__init__.py first seen with mtime 1722005915.716324
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\socket.py first seen with mtime 1719350236.898694
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\checks\database.py first seen with mtime 1722005915.7193253
+File C:\Projetos\Lembretes\aplicativo_lembretes\categorias\models.py first seen with mtime 1722264077.9867373
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\__init__.py first seen with mtime 1722005910.939206
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\sqlparse\filters\output.py first seen with mtime 1722005910.2630537
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\template\context.py first seen with mtime 1722005916.1581254
+File C:\Projetos\Lembretes\aplicativo_lembretes\anexos\apps.py first seen with mtime 1722005978.353579
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\threading.py first seen with mtime 1719350236.9327009
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\apps\registry.py first seen with mtime 1722005910.9452083
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\backends\utils.py first seen with mtime 1722005915.8423524
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\urllib\error.py first seen with mtime 1719350237.1397474
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\management\__init__.py first seen with mtime 1722005915.77734
+File C:\Projetos\Lembretes\aplicativo_lembretes\listas\models.py first seen with mtime 1722006199.4558837
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\auth\urls.py first seen with mtime 1722005912.60662
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\utils\duration.py first seen with mtime 1722005916.2351432
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\contenttypes\admin.py first seen with mtime 1722005912.9356947
+File C:\Projetos\Lembretes\aplicativo_lembretes\notificacoes\__init__.py first seen with mtime 1722005974.709136
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\files\storage\base.py first seen with mtime 1722005915.752334
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\sites\requests.py first seen with mtime 1722005915.3582401
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\json\decoder.py first seen with mtime 1719350234.4531446
+File C:\Projetos\Lembretes\aplicativo_lembretes\lembretes\forms.py first seen with mtime 1722178687.4181676
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\utils\timesince.py first seen with mtime 1722005916.2601485
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\forms\models.py first seen with mtime 1722005916.010394
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\backends\ddl_references.py first seen with mtime 1722005915.8403525
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\utils\tree.py first seen with mtime 1722005916.2631493
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\templatetags\static.py first seen with mtime 1722005916.191136
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\admin\filters.py first seen with mtime 1722005911.4743268
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\template\defaulttags.py first seen with mtime 1722005916.1611264
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\importlib\__init__.py first seen with mtime 1719350234.4111354
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\admin\templatetags\admin_modify.py first seen with mtime 1722005912.2740383
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\models\sql\query.py first seen with mtime 1722005915.994391
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\urls\exceptions.py first seen with mtime 1722005916.2101376
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\email\mime\nonmultipart.py first seen with mtime 1719350233.1708562
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\sqlparse\filters\tokens.py first seen with mtime 1722005910.267054
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\forms\__init__.py first seen with mtime 1722005916.0023925
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\difflib.py first seen with mtime 1719350233.1478512
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\urllib\request.py first seen with mtime 1719350237.1427484
+File C:\Projetos\Lembretes\aplicativo_lembretes\aplicativo_lembretes\__init__.py first seen with mtime 1722005947.9337964
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\asyncio\selector_events.py first seen with mtime 1719350232.8877914
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\checks\compatibility\django_4_0.py first seen with mtime 1722005915.7313273
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\_markupbase.py first seen with mtime 1719350237.3517952
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\models\manager.py first seen with mtime 1722005915.9566536
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\template\backends\__init__.py first seen with mtime 1722005916.1721292
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\sqlparse\sql.py first seen with mtime 1722005910.2500505
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\utils\choices.py first seen with mtime 1722005916.223141
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\email\contentmanager.py first seen with mtime 1719350233.1558514
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\urls\converters.py first seen with mtime 1722005916.2091374
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\models\fields\related_descriptors.py first seen with mtime 1722005915.9753866
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\conf\global_settings.py first seen with mtime 1722005910.948209
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\templatetags\__init__.py first seen with mtime 1722005916.1861322
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\ipaddress.py first seen with mtime 1719350234.4521463
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\transaction.py first seen with mtime 1722005915.8366287
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\backends\sqlite3\schema.py first seen with mtime 1722005915.9143739
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\email\_header_value_parser.py first seen with mtime 1719350233.2008617
+File C:\Projetos\Lembretes\aplicativo_lembretes\aplicativo_lembretes\forms.py first seen with mtime 1722280435.477045
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\migrations\operations\special.py first seen with mtime 1722005915.9403794
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\models\expressions.py first seen with mtime 1722005915.9523826
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\DLLs\_zoneinfo.pyd first seen with mtime 1719350232.6797454
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\messages\api.py first seen with mtime 1722005914.4140275
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\argparse.py first seen with mtime 1719350232.8707879
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\contenttypes\forms.py first seen with mtime 1722005912.9406953
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\DLLs\_queue.pyd first seen with mtime 1719350232.6627407
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\forms\renderers.py first seen with mtime 1722005916.0113964
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\middleware\cache.py first seen with mtime 1722005916.1421216
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\email\quoprimime.py first seen with mtime 1719350233.1968613
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\files\storage\filesystem.py first seen with mtime 1722005915.7533326
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\urls\__init__.py first seen with mtime 1722005916.2051373
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\email\headerregistry.py first seen with mtime 1719350233.1628532
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\backends\sqlite3\operations.py first seen with mtime 1722005915.912373
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\models\fields\__init__.py first seen with mtime 1722005915.9653852
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\views\i18n.py first seen with mtime 1722005916.2791545
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\sqlparse\engine\__init__.py first seen with mtime 1722005910.2540514
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\templatetags\tz.py first seen with mtime 1722005916.1931345
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\_compression.py first seen with mtime 1719350237.3507948
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\utils\functional.py first seen with mtime 1722005916.2401454
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\staticfiles\management\commands\__init__.py first seen with mtime 1722005915.6833167
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\__init__.py first seen with mtime 1719350234.7982213
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\utils\cache.py first seen with mtime 1722005916.2221413
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\models\fields\related_lookups.py first seen with mtime 1722005915.9763865
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\http\server.py first seen with mtime 1719350233.7649894
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\asyncio\locks.py first seen with mtime 1719350232.8817904
+File C:\Projetos\Lembretes\aplicativo_lembretes\notificacoes\models.py first seen with mtime 1722006199.4558837
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\DLLs\unicodedata.pyd first seen with mtime 1719350232.6277342
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\utils\lorem_ipsum.py first seen with mtime 1722005916.2511468
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\sqlparse\filters\reindent.py first seen with mtime 1722005910.2650537
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\checks\translation.py first seen with mtime 1722005915.7283268
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\models\functions\window.py first seen with mtime 1722005915.9866567
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\checks\security\csrf.py first seen with mtime 1722005915.735328
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\http\request.py first seen with mtime 1722005916.136121
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\asyncio\trsock.py first seen with mtime 1719350232.8997946
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\forms\formsets.py first seen with mtime 1722005916.0083933
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\models\deletion.py first seen with mtime 1722005915.9483814
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\asyncio\staggered.py first seen with mtime 1719350232.891796
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\models\fields\proxy.py first seen with mtime 1722005915.9723856
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\email\mime\base.py first seen with mtime 1719350233.1678545
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\models\functions\text.py first seen with mtime 1722005915.9853892
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\views\decorators\common.py first seen with mtime 1722005916.2861545
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\context.py first seen with mtime 1719350234.7702155
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\asyncio\threads.py first seen with mtime 1719350232.8977938
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\utils\module_loading.py first seen with mtime 1722005916.252147
+File C:\Projetos\Lembretes\aplicativo_lembretes\usuarios\admin.py first seen with mtime 1722005973.469312
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\backends\base\validation.py first seen with mtime 1722005915.8553565
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\utils\itercompat.py first seen with mtime 1722005916.2481465
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\auth\hashers.py first seen with mtime 1722005912.597618
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\DLLs\_overlapped.pyd first seen with mtime 1719350232.6607406
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\asyncio\futures.py first seen with mtime 1719350232.88079
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\cache\backends\locmem.py first seen with mtime 1722005915.7123237
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\models\__init__.py first seen with mtime 1722005915.9423795
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\template\loaders\app_directories.py first seen with mtime 1722005916.181131
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\backends\sqlite3\client.py first seen with mtime 1722005915.9066546
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\handlers\__init__.py first seen with mtime 1722005915.7583334
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\utils.py first seen with mtime 1722005915.8373518
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\email\__init__.py first seen with mtime 1719350233.2038622
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\collections\abc.py first seen with mtime 1719350233.0238218
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\migrations\operations\__init__.py first seen with mtime 1722005915.9353788
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\random.py first seen with mtime 1719350234.9232492
+File C:\Projetos\Lembretes\aplicativo_lembretes\prioridades\__init__.py first seen with mtime 1722005977.1456008
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\concurrent\__init__.py first seen with mtime 1719350233.0518286
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\socketserver.py first seen with mtime 1719350236.8996935
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\models\aggregates.py first seen with mtime 1722005915.9433806
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\admin\templatetags\__init__.py first seen with mtime 1722005912.2710378
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\serializers\json.py first seen with mtime 1722005915.825349
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\backends\base\introspection.py first seen with mtime 1722005915.8513546
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\files\uploadedfile.py first seen with mtime 1722005915.7463312
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\files\utils.py first seen with mtime 1722005915.7483308
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\sqlparse\filters\__init__.py first seen with mtime 1722005910.2600527
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\views\generic\list.py first seen with mtime 1722005916.3001585
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\sqlite3\__init__.py first seen with mtime 1719350236.9026942
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\auth\forms.py first seen with mtime 1722005912.5966177
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\http\__init__.py first seen with mtime 1722005916.1331196
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\middleware\common.py first seen with mtime 1722005916.1451235
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\sessions\middleware.py first seen with mtime 1722005915.024165
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\messages\constants.py first seen with mtime 1722005914.4170299
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\utils\ipv6.py first seen with mtime 1722005916.2471457
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\asyncio\constants.py first seen with mtime 1719350232.8767889
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\email\_policybase.py first seen with mtime 1719350233.202862
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\getpass.py first seen with mtime 1719350233.7329822
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\email\mime\multipart.py first seen with mtime 1719350233.1708562
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\pathlib.py first seen with mtime 1719350234.8752387
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\checks\security\__init__.py first seen with mtime 1722005915.7323275
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\struct.py first seen with mtime 1719350236.9206984
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\wsgiref\__init__.py first seen with mtime 1719350237.1967611
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\auth\management\__init__.py first seen with mtime 1722005912.9116895
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\models\query.py first seen with mtime 1722005915.9593842
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\hashlib.py first seen with mtime 1719350233.7379827
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\sites\__init__.py first seen with mtime 1722005915.3482373
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\checks\registry.py first seen with mtime 1722005915.7253263
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\template\__init__.py first seen with mtime 1722005916.1541257
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\staticfiles\management\__init__.py first seen with mtime 1722005915.6823165
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\encodings\cp1252.py first seen with mtime 1719350233.2858813
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\asyncio\mixins.py first seen with mtime 1719350232.8837907
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\checks\caches.py first seen with mtime 1722005915.7183251
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\wsgiref\simple_server.py first seen with mtime 1719350237.1927598
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\asyncio\streams.py first seen with mtime 1719350232.893793
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\staticfiles\apps.py first seen with mtime 1722005915.672312
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\auth\apps.py first seen with mtime 1722005912.5866158
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\asyncio\coroutines.py first seen with mtime 1719350232.8777902
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\copy.py first seen with mtime 1719350233.0568297
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\utils\datastructures.py first seen with mtime 1722005916.2261415
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\decimal.py first seen with mtime 1719350233.14685
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\encodings\utf_8.py first seen with mtime 1719350233.396908
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\contenttypes\checks.py first seen with mtime 1722005912.938696
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\email\iterators.py first seen with mtime 1719350233.1648545
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\views\generic\__init__.py first seen with mtime 1722005916.293156
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\re\__init__.py first seen with mtime 1719350234.930252
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\messages\storage\base.py first seen with mtime 1722005914.42603
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\heapq.py first seen with mtime 1719350233.738983
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\utils\numberformat.py first seen with mtime 1722005916.2541473
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\views\defaults.py first seen with mtime 1722005916.278154
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\backends\sqlite3\introspection.py first seen with mtime 1722005915.9103737
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\asyncio\proactor_events.py first seen with mtime 1719350232.8837907
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\files\temp.py first seen with mtime 1722005915.7453313
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\backends\sqlite3\base.py first seen with mtime 1722005915.905371
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\migrations\exceptions.py first seen with mtime 1722005915.918374
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\management\base.py first seen with mtime 1722005915.7793403
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\template\library.py first seen with mtime 1722005916.1651282
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\models\functions\math.py first seen with mtime 1722005915.9833887
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\staticfiles\__init__.py first seen with mtime 1722005915.6703107
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\files\storage\mixins.py first seen with mtime 1722005915.7573338
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\utils\http.py first seen with mtime 1722005916.2441466
+File C:\Projetos\Lembretes\aplicativo_lembretes\listas\apps.py first seen with mtime 1722005975.891912
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\views\decorators\csrf.py first seen with mtime 1722005916.287155
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\DLLs\_socket.pyd first seen with mtime 1719350232.664741
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\files\images.py first seen with mtime 1722005915.7413304
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\backends\signals.py first seen with mtime 1722005915.8413522
+File C:\Projetos\Lembretes\aplicativo_lembretes\lembretes\apps.py first seen with mtime 1722005971.028576
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\utils\_os.py first seen with mtime 1722005916.2151382
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\checks\messages.py first seen with mtime 1722005915.7213254
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\auth\tokens.py first seen with mtime 1722005912.6056197
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\forms\widgets.py first seen with mtime 1722005916.015396
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\sqlparse\filters\right_margin.py first seen with mtime 1722005910.2660537
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\conf\urls\__init__.py first seen with mtime 1722005911.4623234
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\messages\storage\__init__.py first seen with mtime 1722005914.4240303
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\auth\views.py first seen with mtime 1722005912.6096213
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\http\response.py first seen with mtime 1722005916.1381216
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\apps\config.py first seen with mtime 1722005910.9442074
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_subprocess.py first seen with mtime 1719350232.8747888
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\bz2.py first seen with mtime 1719350233.0148199
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\management\commands\runserver.py first seen with mtime 1722005915.8053453
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\utils\hashable.py first seen with mtime 1722005916.2411447
+File C:\Projetos\Lembretes\aplicativo_lembretes\usuarios\apps.py first seen with mtime 1722005973.4733126
+File C:\Projetos\Lembretes\aplicativo_lembretes\usuarios\__init__.py first seen with mtime 1722005973.481315
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\json\__init__.py first seen with mtime 1719350234.4611454
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\admin\actions.py first seen with mtime 1722005911.468325
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\templatetags\i18n.py first seen with mtime 1722005916.1881325
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\html\__init__.py first seen with mtime 1719350233.7459843
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\uuid.py first seen with mtime 1719350237.1657531
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\utils\safestring.py first seen with mtime 1722005916.2561474
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\functools.py first seen with mtime 1719350233.7289803
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\mail\message.py first seen with mtime 1722005915.7663357
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\templatetags\l10n.py first seen with mtime 1722005916.1901336
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\backends\base\creation.py first seen with mtime 1722005915.8483539
+File C:\Projetos\Lembretes\aplicativo_lembretes\notificacoes\admin.py first seen with mtime 1722005974.6981337
+File C:\Projetos\Lembretes\aplicativo_lembretes\lembretes\views.py first seen with mtime 1722349834.1820226
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\types.py first seen with mtime 1719350237.0817342
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\dispatch\dispatcher.py first seen with mtime 1722005916.0003922
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\auth\signals.py first seen with mtime 1722005912.6036212
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\sqlparse\lexer.py first seen with mtime 1722005910.2490504
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\admin\options.py first seen with mtime 1722005911.4793284
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\models\functions\datetime.py first seen with mtime 1722005915.9823878
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\DLLs\_hashlib.pyd first seen with mtime 1719350232.6537385
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\views\generic\dates.py first seen with mtime 1722005916.2961566
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\middleware\security.py first seen with mtime 1722005916.1531248
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\views\__init__.py first seen with mtime 1722005916.274155
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\collections\__init__.py first seen with mtime 1719350233.0238218
+File C:\Projetos\Lembretes\aplicativo_lembretes\aplicativo_lembretes\settings.py first seen with mtime 1722349920.0894468
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\checks\files.py first seen with mtime 1722005915.720325
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\models\signals.py first seen with mtime 1722005915.9613843
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\mimetypes.py first seen with mtime 1719350234.751211
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\views\decorators\cache.py first seen with mtime 1722005916.2831538
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\messages\__init__.py first seen with mtime 1722005914.4130273
+File C:\Projetos\Lembretes\aplicativo_lembretes\prioridades\admin.py first seen with mtime 1722005977.1342728
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\re\_casefix.py first seen with mtime 1719350234.9252498
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\admin\views\main.py first seen with mtime 1722005912.2810397
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\models\fields\json.py first seen with mtime 1722005915.9703856
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\checks\security\base.py first seen with mtime 1722005915.7333279
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\sqlparse\__init__.py first seen with mtime 1722005910.2420485
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\_weakrefset.py first seen with mtime 1719350237.3667996
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\asyncio\__init__.py first seen with mtime 1719350232.9047954
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\utils\asyncio.py first seen with mtime 1722005916.2191403
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\contextlib.py first seen with mtime 1719350233.0558293
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\utils\translation\reloader.py first seen with mtime 1722005916.2671506
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\sqlparse\engine\filter_stack.py first seen with mtime 1722005910.2550523
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\sessions\apps.py first seen with mtime 1722005915.0201638
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\asyncio\timeouts.py first seen with mtime 1719350232.8977938
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\serializers\__init__.py first seen with mtime 1722005915.822348
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\token.py first seen with mtime 1719350236.9947147
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\textwrap.py first seen with mtime 1719350236.9307003
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\http\cookie.py first seen with mtime 1722005916.1341207
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\encodings\aliases.py first seen with mtime 1719350233.2738786
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\DLLs\_lzma.pyd first seen with mtime 1719350232.6557395
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\wsgi.py first seen with mtime 1722005915.7023208
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\re\_compiler.py first seen with mtime 1719350234.9262497
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\templatetags\cache.py first seen with mtime 1722005916.1874235
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\models\fields\related.py first seen with mtime 1722005915.973386
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\sqlparse\formatter.py first seen with mtime 1722005910.2470503
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\cache\backends\__init__.py first seen with mtime 1722005915.7053227
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\sqlparse\keywords.py first seen with mtime 1722005910.2480502
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\reprlib.py first seen with mtime 1719350234.9242494
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\asgiref\current_thread_executor.py first seen with mtime 1722005910.7321596
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\models\functions\mixins.py first seen with mtime 1722005915.9843884
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\process.py first seen with mtime 1719350234.7882187
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\operator.py first seen with mtime 1719350234.8692362
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\admin\models.py first seen with mtime 1722005911.477328
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\admin\templatetags\admin_urls.py first seen with mtime 1722005912.2750382
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\checks\urls.py first seen with mtime 1722005915.7293267
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\http\__init__.py first seen with mtime 1719350233.7659903
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\contenttypes\models.py first seen with mtime 1722005912.941696
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\files\__init__.py first seen with mtime 1722005915.73833
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\contenttypes\views.py first seen with mtime 1722005912.9446964
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\locale.py first seen with mtime 1719350234.7262046
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\contenttypes\fields.py first seen with mtime 1722005912.9396954
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\email\header.py first seen with mtime 1719350233.1618538
+File C:\Projetos\Lembretes\aplicativo_lembretes\anexos\__init__.py first seen with mtime 1722005978.361582
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\DLLs\_decimal.pyd first seen with mtime 1719350232.644737
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\validators.py first seen with mtime 1722005915.7013211
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\DLLs\_uuid.pyd first seen with mtime 1719350232.673744
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\auth\backends.py first seen with mtime 1722005912.588617
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\linecache.py first seen with mtime 1719350234.7252047
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\bisect.py first seen with mtime 1719350233.0138197
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\apps\__init__.py first seen with mtime 1722005910.9432075
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\admin\decorators.py first seen with mtime 1722005911.4723263
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\fractions.py first seen with mtime 1719350233.7259803
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\utils\inspect.py first seen with mtime 1722005916.2451468
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\admin\widgets.py first seen with mtime 1722005911.4843297
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\asyncio\subprocess.py first seen with mtime 1719350232.8947933
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\template\smartif.py first seen with mtime 1722005916.1701283
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\fnmatch.py first seen with mtime 1719350233.7249806
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\admin\utils.py first seen with mtime 1722005911.4833283
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\admin\exceptions.py first seen with mtime 1722005911.4733267
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\dispatch\__init__.py first seen with mtime 1722005915.9983916
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\email\mime\message.py first seen with mtime 1719350233.1698558
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\utils\version.py first seen with mtime 1722005916.26415
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\http\cookies.py first seen with mtime 1719350233.762991
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\sqlparse\filters\others.py first seen with mtime 1722005910.262053
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\files\storage\__init__.py first seen with mtime 1722005915.7503347
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\sqlparse\engine\grouping.py first seen with mtime 1722005910.2570522
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\cache\backends\filebased.py first seen with mtime 1722005915.710325
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\template\loaders\__init__.py first seen with mtime 1722005916.179131
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\auth\models.py first seen with mtime 1722005912.6006193
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\forms\boundfield.py first seen with mtime 1722005916.0043936
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\sysconfig.py first seen with mtime 1719350236.924699
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\asyncio\protocols.py first seen with mtime 1719350232.884791
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\mail\utils.py first seen with mtime 1722005915.7673357
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\utils\crypto.py first seen with mtime 1722005916.2251413
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\secrets.py first seen with mtime 1719350234.9502554
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\utils\deprecation.py first seen with mtime 1722005916.2341435
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\models\functions\__init__.py first seen with mtime 1722005915.9793868
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\html\entities.py first seen with mtime 1719350233.7409842
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\template\engine.py first seen with mtime 1722005916.1631274
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\calendar.py first seen with mtime 1719350233.01582
+File C:\Projetos\Lembretes\aplicativo_lembretes\lembretes\models.py first seen with mtime 1722203918.945205
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\platform.py first seen with mtime 1719350234.8832412
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\asyncio\windows_utils.py first seen with mtime 1719350232.9037952
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\models\fields\generated.py first seen with mtime 1722005915.9683852
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\concurrent\futures\thread.py first seen with mtime 1719350233.0348246
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\messages\utils.py first seen with mtime 1722005914.4220288
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\html\parser.py first seen with mtime 1719350233.7429836
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\migrations\migration.py first seen with mtime 1722005915.924377
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\sessions\__init__.py first seen with mtime 1722005915.019165
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\utils\regex_helper.py first seen with mtime 1722005916.2551475
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\admin\views\__init__.py first seen with mtime 1722005912.278039
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\files\storage\memory.py first seen with mtime 1722005915.756333
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\template\backends\django.py first seen with mtime 1722005916.1741307
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\serializers\base.py first seen with mtime 1722005915.8233478
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\logging\handlers.py first seen with mtime 1719350234.729206
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\base64.py first seen with mtime 1719350233.0118194
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\views\generic\edit.py first seen with mtime 1722005916.2991574
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\management\color.py first seen with mtime 1722005915.7803402
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\cache\__init__.py first seen with mtime 1722005915.7033212
+File C:\Projetos\Lembretes\aplicativo_lembretes\listas\__init__.py first seen with mtime 1722005975.8979125
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\checks\templates.py first seen with mtime 1722005915.7263267
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\template\loaders\base.py first seen with mtime 1722005916.1821313
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\__init__.py first seen with mtime 1722005915.835352
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\models\indexes.py first seen with mtime 1722005915.9533823
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\messages\apps.py first seen with mtime 1722005914.4150271
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\checks\compatibility\__init__.py first seen with mtime 1722005915.7303271
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\servers\basehttp.py first seen with mtime 1722005915.8333528
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\models\utils.py first seen with mtime 1722005915.9633846
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\sqlparse\tokens.py first seen with mtime 1722005910.2520516
+File C:\Projetos\Lembretes\aplicativo_lembretes\usuarios\models.py first seen with mtime 1722006394.92625
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\hmac.py first seen with mtime 1719350233.7399833
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\auth\middleware.py first seen with mtime 1722005912.5986183
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\checks\security\sessions.py first seen with mtime 1722005915.7363284
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\files\move.py first seen with mtime 1722005915.7433307
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\models\sql\constants.py first seen with mtime 1722005915.9913905
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\lzma.py first seen with mtime 1719350234.7472093
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\email\feedparser.py first seen with mtime 1719350233.1588528
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\keyword.py first seen with mtime 1719350234.485151
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\email\base64mime.py first seen with mtime 1719350233.1538513
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\urllib\response.py first seen with mtime 1719350237.1437495
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\email\_encoded_words.py first seen with mtime 1719350233.1988616
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\utils\translation\__init__.py first seen with mtime 1722005916.2661493
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\selectors.py first seen with mtime 1719350234.951255
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\__init__.py first seen with mtime 1722005911.4653244
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\views\csrf.py first seen with mtime 1722005916.2751536
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\backends\sqlite3\_functions.py first seen with mtime 1722005915.9043713
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\exceptions.py first seen with mtime 1722005915.6953194
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\weakref.py first seen with mtime 1719350237.1887589
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\conf\__init__.py first seen with mtime 1722005910.947209
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py first seen with mtime 1719350232.8867915
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\backends\sqlite3\features.py first seen with mtime 1722005915.9083714
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\models\enums.py first seen with mtime 1722005915.9503825
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\DLLs\_wmi.pyd first seen with mtime 1719350232.6747434
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\json\encoder.py first seen with mtime 1719350234.454144
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\models\fields\files.py first seen with mtime 1722005915.9673853
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\sqlparse\utils.py first seen with mtime 1722005910.2530513
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\forms\fields.py first seen with mtime 1722005916.0063944
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\migrations\operations\fields.py first seen with mtime 1722005915.9373782
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\utils\translation\trans_real.py first seen with mtime 1722005916.2721517
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\email\mime\text.py first seen with mtime 1719350233.1718564
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\backends\__init__.py first seen with mtime 1722005915.838352
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\template\defaultfilters.py first seen with mtime 1722005916.1601262
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\email\_parseaddr.py first seen with mtime 1719350233.201862
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\contenttypes\__init__.py first seen with mtime 1722005912.934694
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\dataclasses.py first seen with mtime 1719350233.1278462
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\migrations\state.py first seen with mtime 1722005915.9313774
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\enum.py first seen with mtime 1719350233.7209785
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\handlers\asgi.py first seen with mtime 1722005915.759334
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\statistics.py first seen with mtime 1719350236.9176977
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\sessions\base_session.py first seen with mtime 1722005915.0221646
+File C:\Projetos\Lembretes\aplicativo_lembretes\prioridades\apps.py first seen with mtime 1722005977.1375976
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\encodings\__init__.py first seen with mtime 1719350233.4009087
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\cache\backends\base.py first seen with mtime 1722005915.7063222
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\utils\termcolors.py first seen with mtime 1722005916.258149
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\asyncio\windows_events.py first seen with mtime 1719350232.9017942
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\sessions\backends\__init__.py first seen with mtime 1722005915.027165
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\urllib\__init__.py first seen with mtime 1719350230.906346
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\DLLs\_ssl.pyd first seen with mtime 1719350232.668743
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\migrations\operations\models.py first seen with mtime 1722005915.9393792
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\logging\config.py first seen with mtime 1719350234.7272048
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\utils\dateformat.py first seen with mtime 1722005916.2274346
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\utils\timezone.py first seen with mtime 1722005916.2621496
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\models\constants.py first seen with mtime 1722005915.9463816
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\admin\templatetags\log.py first seen with mtime 1722005912.2773075
+File C:\Projetos\Lembretes\aplicativo_lembretes\categorias\admin.py first seen with mtime 1722264077.9867373
+File C:\Projetos\Lembretes\aplicativo_lembretes\lembretes\urls.py first seen with mtime 1722187560.3535624
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\checks\async_checks.py first seen with mtime 1722005915.7173252
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\concurrent\futures\__init__.py first seen with mtime 1719350233.0368247
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\backends\base\operations.py first seen with mtime 1722005915.852355
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\re\_constants.py first seen with mtime 1719350234.9272504
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\tempfile.py first seen with mtime 1719350236.9287002
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\auth\admin.py first seen with mtime 1722005912.5856159
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\urls\utils.py first seen with mtime 1722005916.2121382
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py first seen with mtime 1719350232.8737886
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\staticfiles\utils.py first seen with mtime 1722005915.6803162
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\utils\log.py first seen with mtime 1722005916.2501464
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\gzip.py first seen with mtime 1719350233.7369838
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\models\fields\reverse_related.py first seen with mtime 1722005915.9783876
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\gettext.py first seen with mtime 1719350233.7339816
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\checks\model_checks.py first seen with mtime 1722005915.7223258
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\backends\sqlite3\creation.py first seen with mtime 1722005915.907371
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_tasks.py first seen with mtime 1719350232.8767889
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\glob.py first seen with mtime 1719350233.7349815
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\traceback.py first seen with mtime 1719350237.008718
+File C:\Projetos\Lembretes\aplicativo_lembretes\categorias\apps.py first seen with mtime 1722005972.2430346
+File C:\Projetos\Lembretes\aplicativo_lembretes\anexos\models.py first seen with mtime 1722006199.4558837
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\wsgiref\handlers.py first seen with mtime 1719350237.190759
+File C:\Projetos\Lembretes\aplicativo_lembretes\categorias\__init__.py first seen with mtime 1722005972.2530348
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\zoneinfo\_common.py first seen with mtime 1719350237.332791
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\sessions\exceptions.py first seen with mtime 1722005915.0231647
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\files\locks.py first seen with mtime 1722005915.742331
+File C:\Projetos\Lembretes\aplicativo_lembretes\listas\admin.py first seen with mtime 1722005975.8859105
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\zoneinfo\_tzpath.py first seen with mtime 1719350237.333791
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\__init__.py first seen with mtime 1722005915.6923187
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\DLLs\_sqlite3.pyd first seen with mtime 1719350232.666742
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\cache\utils.py first seen with mtime 1722005915.7043219
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\email\message.py first seen with mtime 1719350233.1658537
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\models\base.py first seen with mtime 1722005915.944381
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\signing.py first seen with mtime 1722005915.6993213
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\contenttypes\management\__init__.py first seen with mtime 1722005913.2797723
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\ctypes\_endian.py first seen with mtime 1719350233.0858364
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\utils\text.py first seen with mtime 1722005916.2591493
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\asyncio\events.py first seen with mtime 1719350232.87879
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\models\fields\mixins.py first seen with mtime 1722005915.9713857
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\email\parser.py first seen with mtime 1719350233.19386
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\models\lookups.py first seen with mtime 1722005915.9553835
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\models\functions\comparison.py first seen with mtime 1722005915.9803884
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\utils\deconstruct.py first seen with mtime 1722005916.231145
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\models\constraints.py first seen with mtime 1722005915.9473815
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\forms\utils.py first seen with mtime 1722005916.0133946
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\backends\base\__init__.py first seen with mtime 1722005915.8443542
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\urllib\parse.py first seen with mtime 1719350237.1407478
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\concurrent\futures\_base.py first seen with mtime 1719350233.0358243
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\auth\validators.py first seen with mtime 1722005912.6086202
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\urls\resolvers.py first seen with mtime 1722005916.2111385
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\sqlite3\dbapi2.py first seen with mtime 1719350236.9006937
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\admin\__init__.py first seen with mtime 1722005911.4673245
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\admin\apps.py first seen with mtime 1722005911.4693246
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\asyncio\format_helpers.py first seen with mtime 1719350232.8797898
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\warnings.py first seen with mtime 1719350237.1867585
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\backends\base\schema.py first seen with mtime 1722005915.8533554
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\shutil.py first seen with mtime 1719350234.954256
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\migrations\__init__.py first seen with mtime 1722005915.9153733
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\asyncio\transports.py first seen with mtime 1719350232.8987937
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\template\exceptions.py first seen with mtime 1722005916.1641276
+File C:\Projetos\Lembretes\aplicativo_lembretes\lembretes\__init__.py first seen with mtime 1722005971.0525806
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\models\query_utils.py first seen with mtime 1722005915.9603846
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\tokenize.py first seen with mtime 1719350236.995715
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\auth\base_user.py first seen with mtime 1722005912.589618
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\DLLs\select.pyd first seen with mtime 1719350232.557717
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\sqlparse\cli.py first seen with mtime 1722005910.2440488
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\backends\sqlite3\__init__.py first seen with mtime 1722005915.9033709
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\wsgiref\headers.py first seen with mtime 1719350237.191759
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\asgiref\__init__.py first seen with mtime 1722005910.7301595
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\staticfiles\handlers.py first seen with mtime 1722005915.675311
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\nturl2path.py first seen with mtime 1719350234.8672369
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\migrations\utils.py first seen with mtime 1722005915.9323769
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\utils\__init__.py first seen with mtime 1722005916.2131393
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\middleware\csrf.py first seen with mtime 1722005916.146123
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\sqlparse\filters\aligned_indent.py first seen with mtime 1722005910.2610528
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\auth\checks.py first seen with mtime 1722005912.5916176
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\email\generator.py first seen with mtime 1719350233.1608534
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\email\encoders.py first seen with mtime 1719350233.1578524
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\management\commands\__init__.py first seen with mtime 1722005915.784341
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\contenttypes\apps.py first seen with mtime 1722005912.9366956
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\staticfiles\management\commands\runserver.py first seen with mtime 1722005915.6883197
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\files\base.py first seen with mtime 1722005915.7403307
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\asyncio\queues.py first seen with mtime 1719350232.8857913
+File C:\Projetos\Lembretes\aplicativo_lembretes\aplicativo_lembretes\urls.py first seen with mtime 1722280501.4718802
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\auth\password_validation.py first seen with mtime 1722005912.601619
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\email\policy.py first seen with mtime 1719350233.1948605
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\views\static.py first seen with mtime 1722005916.280154
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\http\client.py first seen with mtime 1719350233.7609878
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\staticfiles\finders.py first seen with mtime 1722005915.674311
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\email\utils.py first seen with mtime 1719350233.1978629
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\staticfiles\views.py first seen with mtime 1722005915.6813164
+File C:\Projetos\Lembretes\aplicativo_lembretes\aplicativo_lembretes\views.py first seen with mtime 1722282278.9065168
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\pickle.py first seen with mtime 1719350234.8782413
+File C:\Projetos\Lembretes\aplicativo_lembretes\categorias\templates\categorias first seen with mtime 1722104946.4341066
+File C:\Projetos\Lembretes\aplicativo_lembretes\categorias\templates\categorias\lista_categorias.html first seen with mtime 1722279678.8676684
+File C:\Projetos\Lembretes\aplicativo_lembretes\usuarios\templates\usuarios first seen with mtime 1722186838.810407
+File C:\Projetos\Lembretes\aplicativo_lembretes\usuarios\templates\usuarios\login.html first seen with mtime 1722280100.1108232
+File C:\Projetos\Lembretes\aplicativo_lembretes\usuarios\templates\usuarios\register.html first seen with mtime 1722187296.3966012
+File C:\Projetos\Lembretes\aplicativo_lembretes\templates\registration first seen with mtime 1722282068.6469085
+File C:\Projetos\Lembretes\aplicativo_lembretes\templates\registration\login.html first seen with mtime 1722281929.8217597
+File C:\Projetos\Lembretes\aplicativo_lembretes\templates\registration\register.html first seen with mtime 1722281947.8175228
+File C:\Projetos\Lembretes\aplicativo_lembretes\lembretes\templates\lembretes first seen with mtime 1722179814.5658462
+File C:\Projetos\Lembretes\aplicativo_lembretes\lembretes\templates\lembretes\categoria_list.html first seen with mtime 1722090089.199942
+File C:\Projetos\Lembretes\aplicativo_lembretes\lembretes\templates\lembretes\create_categoria.html first seen with mtime 1722090089.199942
+File C:\Projetos\Lembretes\aplicativo_lembretes\lembretes\templates\lembretes\create_lembrete.html first seen with mtime 1722177383.9298222
+File C:\Projetos\Lembretes\aplicativo_lembretes\lembretes\templates\lembretes\delete_categoria.html first seen with mtime 1722090089.1989403
+File C:\Projetos\Lembretes\aplicativo_lembretes\lembretes\templates\lembretes\delete_lembrete.html first seen with mtime 1722089345.1723187
+File C:\Projetos\Lembretes\aplicativo_lembretes\lembretes\templates\lembretes\edit_categoria.html first seen with mtime 1722090089.199942
+File C:\Projetos\Lembretes\aplicativo_lembretes\lembretes\templates\lembretes\edit_lembrete.html first seen with mtime 1722177289.1705515
+File C:\Projetos\Lembretes\aplicativo_lembretes\lembretes\templates\lembretes\index.html first seen with mtime 1722349746.838448
+File C:\Projetos\Lembretes\aplicativo_lembretes\listas\migrations\0002_initial.py first seen with mtime 1722006400.0894132
+File C:\Projetos\Lembretes\aplicativo_lembretes\prioridades\migrations\0001_initial.py first seen with mtime 1722006400.0744083
+File C:\Projetos\Lembretes\aplicativo_lembretes\anexos\migrations\0001_initial.py first seen with mtime 1722006400.0854108
+File C:\Projetos\Lembretes\aplicativo_lembretes\categorias\migrations\0005_remove_perfil_data_nascimento_and_more.py first seen with mtime 1722221806.9878964
+File C:\Projetos\Lembretes\aplicativo_lembretes\listas\migrations\__init__.py first seen with mtime 1722005975.900913
+File C:\Projetos\Lembretes\aplicativo_lembretes\usuarios\migrations\__init__.py first seen with mtime 1722005973.4833145
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\sessions\backends\db.py first seen with mtime 1722005915.0331676
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\migrations\recorder.py first seen with mtime 1722005915.9293773
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\auth\migrations\0011_update_proxy_permissions.py first seen with mtime 1722005912.9286928
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\migrations\loader.py first seen with mtime 1722005915.9223752
+File C:\Projetos\Lembretes\aplicativo_lembretes\notificacoes\migrations\0001_initial.py first seen with mtime 1722006400.0824113
+File C:\Projetos\Lembretes\aplicativo_lembretes\listas\migrations\0001_initial.py first seen with mtime 1722006400.0874128
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\auth\migrations\0003_alter_user_email_max_length.py first seen with mtime 1722005912.9186907
+File C:\Projetos\Lembretes\aplicativo_lembretes\lembretes\migrations\0006_lembrete_user.py first seen with mtime 1722203771.5949423
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\contenttypes\migrations\0001_initial.py first seen with mtime 1722005913.2827728
+File C:\Projetos\Lembretes\aplicativo_lembretes\categorias\migrations\0004_perfil.py first seen with mtime 1722203771.5929415
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\admin\migrations\0001_initial.py first seen with mtime 1722005912.0419993
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\auth\migrations\__init__.py first seen with mtime 1722005912.9306934
+File C:\Projetos\Lembretes\aplicativo_lembretes\lembretes\migrations\0005_remove_lembrete_categoria_lembrete_categoria.py first seen with mtime 1722178766.8942523
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\auth\migrations\0005_alter_user_last_login_null.py first seen with mtime 1722005912.9206915
+File C:\Projetos\Lembretes\aplicativo_lembretes\lembretes\migrations\0007_alter_lembrete_user.py first seen with mtime 1722203999.9565413
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\auth\migrations\0012_alter_user_first_name_max_length.py first seen with mtime 1722005912.929693
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\stringprep.py first seen with mtime 1719350236.919698
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\auth\migrations\0007_alter_validators_add_error_messages.py first seen with mtime 1722005912.9236922
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\models\sql\compiler.py first seen with mtime 1722005915.9893894
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\auth\migrations\0006_require_contenttypes_0002.py first seen with mtime 1722005912.922691
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\migrations\executor.py first seen with mtime 1722005915.9193747
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\admin\migrations\0002_logentry_remove_auto_add.py first seen with mtime 1722005912.0429993
+File C:\Projetos\Lembretes\aplicativo_lembretes\categorias\migrations\0001_initial.py first seen with mtime 1722006400.0764084
+File C:\Projetos\Lembretes\aplicativo_lembretes\lembretes\migrations\0003_remove_lembrete_categoria_lembrete_categoria.py first seen with mtime 1722177077.8526454
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\auth\migrations\0009_alter_user_last_name_max_length.py first seen with mtime 1722005912.9266927
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\encodings\idna.py first seen with mtime 1719350233.3318927
+File C:\Projetos\Lembretes\aplicativo_lembretes\prioridades\migrations\__init__.py first seen with mtime 1722005977.1475997
+File C:\Projetos\Lembretes\aplicativo_lembretes\anexos\migrations\__init__.py first seen with mtime 1722005978.3635812
+File C:\Projetos\Lembretes\aplicativo_lembretes\lembretes\migrations\__init__.py first seen with mtime 1722005971.054581
+File C:\Projetos\Lembretes\aplicativo_lembretes\categorias\migrations\0003_lembrete.py first seen with mtime 1722177077.8506458
+File C:\Projetos\Lembretes\aplicativo_lembretes\categorias\migrations\0002_remove_categoria_prioridade_and_more.py first seen with mtime 1722089797.0467563
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\middleware\clickjacking.py first seen with mtime 1722005916.1441228
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\auth\migrations\0004_alter_user_username_opts.py first seen with mtime 1722005912.9196901
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\contenttypes\migrations\0002_remove_content_type_name.py first seen with mtime 1722005913.2847729
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\auth\migrations\0001_initial.py first seen with mtime 1722005912.9166903
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\migrations\graph.py first seen with mtime 1722005915.921375
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\sessions\migrations\0001_initial.py first seen with mtime 1722005915.3412366
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\auth\migrations\0002_alter_permission_name_max_length.py first seen with mtime 1722005912.9176905
+File C:\Projetos\Lembretes\aplicativo_lembretes\notificacoes\migrations\__init__.py first seen with mtime 1722005974.7111363
+File C:\Projetos\Lembretes\aplicativo_lembretes\usuarios\migrations\0001_initial.py first seen with mtime 1722006400.0924127
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\admin\migrations\__init__.py first seen with mtime 1722005912.0450017
+File C:\Projetos\Lembretes\aplicativo_lembretes\lembretes\migrations\0002_lembrete_categoria_alter_lembrete_prioridade_and_more.py first seen with mtime 1722089797.0507562
+File C:\Projetos\Lembretes\aplicativo_lembretes\lembretes\migrations\0004_alter_lembrete_prioridade.py first seen with mtime 1722178446.0330524
+File C:\Projetos\Lembretes\aplicativo_lembretes\lembretes\migrations\0001_initial.py first seen with mtime 1722006400.080411
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\auth\migrations\0010_alter_group_name_max_length.py first seen with mtime 1722005912.9276922
+File C:\Projetos\Lembretes\aplicativo_lembretes\aplicativo_lembretes\wsgi.py first seen with mtime 1722005947.9327962
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\sessions\migrations\__init__.py first seen with mtime 1722005915.3422365
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\admin\migrations\0003_logentry_add_action_flag_choices.py first seen with mtime 1722005912.044001
+File C:\Projetos\Lembretes\aplicativo_lembretes\categorias\migrations\__init__.py first seen with mtime 1722005972.2550352
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\auth\migrations\0008_alter_user_username_max_length.py first seen with mtime 1722005912.9256918
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\contenttypes\migrations\__init__.py first seen with mtime 1722005913.285773
+(0.000) SELECT "lembretes_lembrete"."id", "lembretes_lembrete"."titulo", "lembretes_lembrete"."descricao", "lembretes_lembrete"."data_lembrete", "lembretes_lembrete"."prioridade", "lembretes_lembrete"."categoria_id", "lembretes_lembrete"."user_id" FROM "lembretes_lembrete"; args=(); alias=default
+"GET / HTTP/1.1" 200 1082
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\template\context_processors.py first seen with mtime 1722005916.1591265
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\messages\storage\cookie.py first seen with mtime 1722005914.42703
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\messages\context_processors.py first seen with mtime 1722005914.4190285
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\sessions\serializers.py first seen with mtime 1722005915.0261648
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\auth\context_processors.py first seen with mtime 1722005912.5936172
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\messages\storage\session.py first seen with mtime 1722005914.429031
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\messages\storage\fallback.py first seen with mtime 1722005914.4280322
+(0.000) SELECT "lembretes_lembrete"."id", "lembretes_lembrete"."titulo", "lembretes_lembrete"."descricao", "lembretes_lembrete"."data_lembrete", "lembretes_lembrete"."prioridade", "lembretes_lembrete"."categoria_id", "lembretes_lembrete"."user_id" FROM "lembretes_lembrete"; args=(); alias=default
+"GET / HTTP/1.1" 200 1082
+(0.000) SELECT "lembretes_lembrete"."id", "lembretes_lembrete"."titulo", "lembretes_lembrete"."descricao", "lembretes_lembrete"."data_lembrete", "lembretes_lembrete"."prioridade", "lembretes_lembrete"."categoria_id", "lembretes_lembrete"."user_id" FROM "lembretes_lembrete"; args=(); alias=default
+"GET / HTTP/1.1" 200 1082
+(0.000) SELECT "lembretes_lembrete"."id", "lembretes_lembrete"."titulo", "lembretes_lembrete"."descricao", "lembretes_lembrete"."data_lembrete", "lembretes_lembrete"."prioridade", "lembretes_lembrete"."categoria_id", "lembretes_lembrete"."user_id" FROM "lembretes_lembrete"; args=(); alias=default
+"GET / HTTP/1.1" 200 1082
+File C:\Projetos\Lembretes\aplicativo_lembretes\lembretes\views.py previous mtime: 1722349834.1820226, current mtime: 1722350062.0055842
+C:\Projetos\Lembretes\aplicativo_lembretes\lembretes\views.py notified as changed. Signal results: [(<function template_changed at 0x00000227E08E04A0>, None), (<function translation_file_changed at 0x00000227E167D4E0>, None)].
+C:\Projetos\Lembretes\aplicativo_lembretes\lembretes\views.py changed, reloading.
+Watching for file changes with StatReloader
+Waiting for apps ready_event.
+Apps ready_event triggered. Sending autoreload_started signal.
+Watching dir C:\Projetos\Lembretes\aplicativo_lembretes\lembretes\templates with glob **/*.
+Watching dir C:\Projetos\Lembretes\aplicativo_lembretes\categorias\templates with glob **/*.
+Watching dir C:\Projetos\Lembretes\aplicativo_lembretes\templates with glob **/*.
+Watching dir C:\Projetos\Lembretes\aplicativo_lembretes\usuarios\templates with glob **/*.
+Watching dir C:\Projetos\Lembretes\aplicativo_lembretes\locale with glob **/*.mo.
+Watching dir C:\Projetos\Lembretes\aplicativo_lembretes\lembretes\locale with glob **/*.mo.
+Watching dir C:\Projetos\Lembretes\aplicativo_lembretes\categorias\locale with glob **/*.mo.
+Watching dir C:\Projetos\Lembretes\aplicativo_lembretes\usuarios\locale with glob **/*.mo.
+Watching dir C:\Projetos\Lembretes\aplicativo_lembretes\notificacoes\locale with glob **/*.mo.
+Watching dir C:\Projetos\Lembretes\aplicativo_lembretes\listas\locale with glob **/*.mo.
+Watching dir C:\Projetos\Lembretes\aplicativo_lembretes\prioridades\locale with glob **/*.mo.
+Watching dir C:\Projetos\Lembretes\aplicativo_lembretes\anexos\locale with glob **/*.mo.
+(0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+(0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+File C:\Projetos\Lembretes\aplicativo_lembretes\lembretes\views.py first seen with mtime 1722350062.0055842
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\email\_parseaddr.py first seen with mtime 1719350233.201862
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\messages\storage\__init__.py first seen with mtime 1722005914.4240303
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\admin\templatetags\admin_urls.py first seen with mtime 1722005912.2750382
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\template\loaders\filesystem.py first seen with mtime 1722005916.1841316
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\utils\text.py first seen with mtime 1722005916.2591493
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\handlers\asgi.py first seen with mtime 1722005915.759334
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\conf\locale\__init__.py first seen with mtime 1722005910.95821
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\importlib\_abc.py first seen with mtime 1719350234.407133
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\DLLs\_decimal.pyd first seen with mtime 1719350232.644737
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\template\defaultfilters.py first seen with mtime 1722005916.1601262
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\numbers.py first seen with mtime 1719350234.8672369
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\sysconfig.py first seen with mtime 1719350236.924699
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\collections\__init__.py first seen with mtime 1719350233.0238218
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\auth\signals.py first seen with mtime 1722005912.6036212
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\reduction.py first seen with mtime 1719350234.7902188
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\zoneinfo\_tzpath.py first seen with mtime 1719350237.333791
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\dis.py first seen with mtime 1719350233.1498501
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\contenttypes\admin.py first seen with mtime 1722005912.9356947
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\views\generic\dates.py first seen with mtime 1722005916.2961566
+File C:\Projetos\Lembretes\aplicativo_lembretes\lembretes\admin.py first seen with mtime 1722005971.0185728
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\utils\timezone.py first seen with mtime 1722005916.2621496
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\sqlparse\__init__.py first seen with mtime 1722005910.2420485
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\platform.py first seen with mtime 1719350234.8832412
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\backends\sqlite3\schema.py first seen with mtime 1722005915.9143739
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\utils\ipv6.py first seen with mtime 1722005916.2471457
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\conf\__init__.py first seen with mtime 1722005910.947209
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\DLLs\_bz2.pyd first seen with mtime 1719350232.6397357
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\email\parser.py first seen with mtime 1719350233.19386
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\weakref.py first seen with mtime 1719350237.1887589
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\messages\middleware.py first seen with mtime 1722005914.4200327
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\backends\utils.py first seen with mtime 1722005915.8423524
+File C:\Projetos\Lembretes\aplicativo_lembretes\prioridades\admin.py first seen with mtime 1722005977.1342728
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\string.py first seen with mtime 1719350236.9186978
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\contenttypes\apps.py first seen with mtime 1722005912.9366956
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\utils\deconstruct.py first seen with mtime 1722005916.231145
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\servers\basehttp.py first seen with mtime 1722005915.8333528
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\sessions\backends\base.py first seen with mtime 1722005915.028166
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\backends\signals.py first seen with mtime 1722005915.8413522
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\cache\utils.py first seen with mtime 1722005915.7043219
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\views\debug.py first seen with mtime 1722005916.2761538
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\asyncio\tasks.py first seen with mtime 1719350232.8967936
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\asgiref\sync.py first seen with mtime 1722005910.738161
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\templatetags\l10n.py first seen with mtime 1722005916.1901336
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\email\mime\nonmultipart.py first seen with mtime 1719350233.1708562
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\checks\registry.py first seen with mtime 1722005915.7253263
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\handlers\__init__.py first seen with mtime 1722005915.7583334
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\socketserver.py first seen with mtime 1719350236.8996935
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\contenttypes\forms.py first seen with mtime 1722005912.9406953
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\models\indexes.py first seen with mtime 1722005915.9533823
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\encodings\aliases.py first seen with mtime 1719350233.2738786
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\utils\functional.py first seen with mtime 1722005916.2401454
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\DLLs\_overlapped.pyd first seen with mtime 1719350232.6607406
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\contenttypes\__init__.py first seen with mtime 1722005912.934694
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\cache\backends\__init__.py first seen with mtime 1722005915.7053227
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\cache\backends\filebased.py first seen with mtime 1722005915.710325
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\ipaddress.py first seen with mtime 1719350234.4521463
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\asyncio\__init__.py first seen with mtime 1719350232.9047954
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\sqlparse\filters\tokens.py first seen with mtime 1722005910.267054
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\views\decorators\csrf.py first seen with mtime 1722005916.287155
+File C:\Projetos\Lembretes\aplicativo_lembretes\lembretes\apps.py first seen with mtime 1722005971.028576
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\logging\__init__.py first seen with mtime 1719350234.7312057
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\re\__init__.py first seen with mtime 1719350234.930252
+File C:\Projetos\Lembretes\aplicativo_lembretes\anexos\apps.py first seen with mtime 1722005978.353579
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\backends\base\base.py first seen with mtime 1722005915.846354
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\utils\asyncio.py first seen with mtime 1722005916.2191403
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\migrations\utils.py first seen with mtime 1722005915.9323769
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\email\contentmanager.py first seen with mtime 1719350233.1558514
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\wsgiref\headers.py first seen with mtime 1719350237.191759
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\sessions\middleware.py first seen with mtime 1722005915.024165
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\pickle.py first seen with mtime 1719350234.8782413
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\socket.py first seen with mtime 1719350236.898694
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\models\sql\datastructures.py first seen with mtime 1722005915.9923906
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\sqlite3\__init__.py first seen with mtime 1719350236.9026942
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\models\sql\subqueries.py first seen with mtime 1722005915.9963918
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\argparse.py first seen with mtime 1719350232.8707879
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\migrations\migration.py first seen with mtime 1722005915.924377
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\checks\compatibility\django_4_0.py first seen with mtime 1722005915.7313273
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\urls\conf.py first seen with mtime 1722005916.2081373
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\utils\dateformat.py first seen with mtime 1722005916.2274346
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\admin\templatetags\log.py first seen with mtime 1722005912.2773075
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\models\functions\mixins.py first seen with mtime 1722005915.9843884
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\contenttypes\views.py first seen with mtime 1722005912.9446964
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\template\loader_tags.py first seen with mtime 1722005916.1681278
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\messages\storage\base.py first seen with mtime 1722005914.42603
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\checks\__init__.py first seen with mtime 1722005915.716324
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\views\decorators\common.py first seen with mtime 1722005916.2861545
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\middleware\common.py first seen with mtime 1722005916.1451235
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\asyncio\log.py first seen with mtime 1719350232.8827906
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\messages\api.py first seen with mtime 1722005914.4140275
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\backends\sqlite3\base.py first seen with mtime 1722005915.905371
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\models\utils.py first seen with mtime 1722005915.9633846
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\utils\itercompat.py first seen with mtime 1722005916.2481465
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\admin\sites.py first seen with mtime 1722005911.4803283
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\forms\boundfield.py first seen with mtime 1722005916.0043936
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\email\base64mime.py first seen with mtime 1719350233.1538513
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\locale.py first seen with mtime 1719350234.7262046
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\calendar.py first seen with mtime 1719350233.01582
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\functools.py first seen with mtime 1719350233.7289803
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\staticfiles\apps.py first seen with mtime 1722005915.672312
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\template\backends\base.py first seen with mtime 1722005916.17313
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\fnmatch.py first seen with mtime 1719350233.7249806
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\urllib\request.py first seen with mtime 1719350237.1427484
+File C:\Projetos\Lembretes\aplicativo_lembretes\aplicativo_lembretes\forms.py first seen with mtime 1722280435.477045
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\copyreg.py first seen with mtime 1719350233.05883
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\utils\cache.py first seen with mtime 1722005916.2221413
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\files\storage\handler.py first seen with mtime 1722005915.7543342
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\management\commands\__init__.py first seen with mtime 1722005915.784341
+File C:\Projetos\Lembretes\aplicativo_lembretes\categorias\admin.py first seen with mtime 1722264077.9867373
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\template\exceptions.py first seen with mtime 1722005916.1641276
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\fractions.py first seen with mtime 1719350233.7259803
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\asyncio\exceptions.py first seen with mtime 1719350232.8797898
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\models\functions\math.py first seen with mtime 1722005915.9833887
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\utils\dateparse.py first seen with mtime 1722005916.2281413
+File C:\Projetos\Lembretes\aplicativo_lembretes\prioridades\apps.py first seen with mtime 1722005977.1375976
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\DLLs\select.pyd first seen with mtime 1719350232.557717
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\_compat_pickle.py first seen with mtime 1719350237.349795
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\messages\__init__.py first seen with mtime 1722005914.4130273
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\admin\actions.py first seen with mtime 1722005911.468325
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\checks\async_checks.py first seen with mtime 1722005915.7173252
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\wsgiref\handlers.py first seen with mtime 1719350237.190759
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\sessions\models.py first seen with mtime 1722005915.0251646
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\DLLs\_zoneinfo.pyd first seen with mtime 1719350232.6797454
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\utils\duration.py first seen with mtime 1722005916.2351432
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\email\feedparser.py first seen with mtime 1719350233.1588528
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\checks\caches.py first seen with mtime 1722005915.7183251
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\conf\global_settings.py first seen with mtime 1722005910.948209
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\backends\base\features.py first seen with mtime 1722005915.8493545
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\http\request.py first seen with mtime 1722005916.136121
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\paginator.py first seen with mtime 1722005915.6963196
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\email\__init__.py first seen with mtime 1719350233.2038622
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\DLLs\_queue.pyd first seen with mtime 1719350232.6627407
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\linecache.py first seen with mtime 1719350234.7252047
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\models\manager.py first seen with mtime 1722005915.9566536
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\email\quoprimime.py first seen with mtime 1719350233.1968613
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\staticfiles\management\commands\runserver.py first seen with mtime 1722005915.6883197
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\management\color.py first seen with mtime 1722005915.7803402
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\ctypes\__init__.py first seen with mtime 1719350233.0868368
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\auth\__init__.py first seen with mtime 1722005912.5846155
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\checks\messages.py first seen with mtime 1722005915.7213254
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\models\options.py first seen with mtime 1722005915.9573824
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\context.py first seen with mtime 1719350234.7702155
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\email\errors.py first seen with mtime 1719350233.1578524
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\asyncio\sslproto.py first seen with mtime 1719350232.889793
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\email\_header_value_parser.py first seen with mtime 1719350233.2008617
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\forms\models.py first seen with mtime 1722005916.010394
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\urllib\error.py first seen with mtime 1719350237.1397474
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\middleware\csrf.py first seen with mtime 1722005916.146123
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\asyncio\futures.py first seen with mtime 1719350232.88079
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\exceptions.py first seen with mtime 1722005915.6953194
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\admin\checks.py first seen with mtime 1722005911.4703257
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\json\encoder.py first seen with mtime 1719350234.454144
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\http\__init__.py first seen with mtime 1722005916.1331196
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\sqlparse\filters\others.py first seen with mtime 1722005910.262053
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\models\signals.py first seen with mtime 1722005915.9613843
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\utils\hashable.py first seen with mtime 1722005916.2411447
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\base64.py first seen with mtime 1719350233.0118194
+File C:\Projetos\Lembretes\aplicativo_lembretes\listas\apps.py first seen with mtime 1722005975.891912
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\backends\sqlite3\client.py first seen with mtime 1722005915.9066546
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\views\generic\edit.py first seen with mtime 1722005916.2991574
+File C:\Projetos\Lembretes\aplicativo_lembretes\lembretes\__init__.py first seen with mtime 1722005971.0525806
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\process.py first seen with mtime 1719350234.7882187
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\messages\apps.py first seen with mtime 1722005914.4150271
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\asyncio\windows_events.py first seen with mtime 1719350232.9017942
+File C:\Projetos\Lembretes\aplicativo_lembretes\categorias\apps.py first seen with mtime 1722005972.2430346
+File C:\Projetos\Lembretes\aplicativo_lembretes\listas\__init__.py first seen with mtime 1722005975.8979125
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\random.py first seen with mtime 1719350234.9232492
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\re\_constants.py first seen with mtime 1719350234.9272504
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\views\decorators\debug.py first seen with mtime 1722005916.2881556
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\asyncio\selector_events.py first seen with mtime 1719350232.8877914
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\auth\validators.py first seen with mtime 1722005912.6086202
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\backends\base\creation.py first seen with mtime 1722005915.8483539
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\backends\base\schema.py first seen with mtime 1722005915.8533554
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\auth\checks.py first seen with mtime 1722005912.5916176
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\auth\management\__init__.py first seen with mtime 1722005912.9116895
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\backends\base\validation.py first seen with mtime 1722005915.8553565
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\staticfiles\utils.py first seen with mtime 1722005915.6803162
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\encodings\cp1252.py first seen with mtime 1719350233.2858813
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\email\policy.py first seen with mtime 1719350233.1948605
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\DLLs\_ctypes.pyd first seen with mtime 1719350232.6417358
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\html\entities.py first seen with mtime 1719350233.7409842
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\management\__init__.py first seen with mtime 1722005915.77734
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\checks\security\base.py first seen with mtime 1722005915.7333279
+File C:\Projetos\Lembretes\aplicativo_lembretes\usuarios\__init__.py first seen with mtime 1722005973.481315
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\http\cookies.py first seen with mtime 1719350233.762991
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\email\_encoded_words.py first seen with mtime 1719350233.1988616
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\forms\__init__.py first seen with mtime 1722005916.0023925
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\pathlib.py first seen with mtime 1719350234.8752387
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\views\csrf.py first seen with mtime 1722005916.2751536
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\utils\html.py first seen with mtime 1722005916.2421446
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\secrets.py first seen with mtime 1719350234.9502554
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\sqlparse\cli.py first seen with mtime 1722005910.2440488
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\DLLs\_ssl.pyd first seen with mtime 1719350232.668743
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\models\expressions.py first seen with mtime 1722005915.9523826
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\checks\compatibility\__init__.py first seen with mtime 1722005915.7303271
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\utils\numberformat.py first seen with mtime 1722005916.2541473
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\contextlib.py first seen with mtime 1719350233.0558293
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\asyncio\threads.py first seen with mtime 1719350232.8977938
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\backends\sqlite3\operations.py first seen with mtime 1722005915.912373
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\logging\handlers.py first seen with mtime 1719350234.729206
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\checks\database.py first seen with mtime 1722005915.7193253
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\backends\sqlite3\introspection.py first seen with mtime 1722005915.9103737
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\sqlite3\dbapi2.py first seen with mtime 1719350236.9006937
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\asgiref\local.py first seen with mtime 1722005910.7331598
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\email\mime\base.py first seen with mtime 1719350233.1678545
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\contenttypes\management\__init__.py first seen with mtime 1722005913.2797723
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\conf\urls\__init__.py first seen with mtime 1722005911.4623234
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\utils\connection.py first seen with mtime 1722005916.2241411
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\ssl.py first seen with mtime 1719350236.9146967
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\middleware\security.py first seen with mtime 1722005916.1531248
+File C:\Projetos\Lembretes\aplicativo_lembretes\categorias\__init__.py first seen with mtime 1722005972.2530348
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\urls\exceptions.py first seen with mtime 1722005916.2101376
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\urls\converters.py first seen with mtime 1722005916.2091374
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\opcode.py first seen with mtime 1719350234.8682363
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\utils\dates.py first seen with mtime 1722005916.2301426
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\utils\__init__.py first seen with mtime 1722005916.2131393
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\views\__init__.py first seen with mtime 1722005916.274155
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\template\loader.py first seen with mtime 1722005916.167128
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\__init__.py first seen with mtime 1722005915.835352
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\DLLs\_hashlib.pyd first seen with mtime 1719350232.6537385
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\gettext.py first seen with mtime 1719350233.7339816
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\admin\apps.py first seen with mtime 1722005911.4693246
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\backends\sqlite3\__init__.py first seen with mtime 1722005915.9033709
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\wsgi.py first seen with mtime 1722005915.7023208
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\models\query_utils.py first seen with mtime 1722005915.9603846
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\http\multipartparser.py first seen with mtime 1722005916.1351209
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\admin\options.py first seen with mtime 1722005911.4793284
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\files\uploadhandler.py first seen with mtime 1722005915.7473311
+File C:\Projetos\Lembretes\aplicativo_lembretes\notificacoes\__init__.py first seen with mtime 1722005974.709136
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\forms\widgets.py first seen with mtime 1722005916.015396
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\contenttypes\fields.py first seen with mtime 1722005912.9396954
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\utils\deprecation.py first seen with mtime 1722005916.2341435
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\backends\sqlite3\features.py first seen with mtime 1722005915.9083714
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\backends\base\__init__.py first seen with mtime 1722005915.8443542
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\models\fields\files.py first seen with mtime 1722005915.9673853
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\asyncio\timeouts.py first seen with mtime 1719350232.8977938
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\migrations\operations\__init__.py first seen with mtime 1722005915.9353788
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\models\fields\mixins.py first seen with mtime 1722005915.9713857
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\selectors.py first seen with mtime 1719350234.951255
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\sites\requests.py first seen with mtime 1722005915.3582401
+File C:\Projetos\Lembretes\aplicativo_lembretes\prioridades\__init__.py first seen with mtime 1722005977.1456008
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\urls\base.py first seen with mtime 1722005916.2071364
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\admin\widgets.py first seen with mtime 1722005911.4843297
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\re\_parser.py first seen with mtime 1719350234.9292502
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\migrations\state.py first seen with mtime 1722005915.9313774
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\serializers\json.py first seen with mtime 1722005915.825349
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\apps\config.py first seen with mtime 1722005910.9442074
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\admin\views\main.py first seen with mtime 1722005912.2810397
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\auth\base_user.py first seen with mtime 1722005912.589618
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\sqlparse\utils.py first seen with mtime 1722005910.2530513
+File C:\Projetos\Lembretes\aplicativo_lembretes\categorias\models.py first seen with mtime 1722264077.9867373
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\http\response.py first seen with mtime 1722005916.1381216
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\utils\version.py first seen with mtime 1722005916.26415
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\sessions\__init__.py first seen with mtime 1722005915.019165
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\ctypes\_endian.py first seen with mtime 1719350233.0858364
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\auth\password_validation.py first seen with mtime 1722005912.601619
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\nturl2path.py first seen with mtime 1719350234.8672369
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\migrations\__init__.py first seen with mtime 1722005915.9153733
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\models\fields\generated.py first seen with mtime 1722005915.9683852
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\token.py first seen with mtime 1719350236.9947147
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\migrations\exceptions.py first seen with mtime 1722005915.918374
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\http\server.py first seen with mtime 1719350233.7649894
+File C:\Projetos\Lembretes\aplicativo_lembretes\usuarios\models.py first seen with mtime 1722006394.92625
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\sqlparse\filters\aligned_indent.py first seen with mtime 1722005910.2610528
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\sessions\base_session.py first seen with mtime 1722005915.0221646
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\wsgiref\util.py first seen with mtime 1719350237.1947596
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\dataclasses.py first seen with mtime 1719350233.1278462
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\forms\fields.py first seen with mtime 1722005916.0063944
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\backends\sqlite3\_functions.py first seen with mtime 1722005915.9043713
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\inspect.py first seen with mtime 1719350234.448143
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\admin\__init__.py first seen with mtime 1722005911.4673245
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\graphlib.py first seen with mtime 1719350233.7359824
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\auth\middleware.py first seen with mtime 1722005912.5986183
+File C:\Projetos\Lembretes\aplicativo_lembretes\usuarios\apps.py first seen with mtime 1722005973.4733126
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\importlib\__init__.py first seen with mtime 1719350234.4111354
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\files\utils.py first seen with mtime 1722005915.7483308
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\models\fields\reverse_related.py first seen with mtime 1722005915.9783876
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\copy.py first seen with mtime 1719350233.0568297
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\models\__init__.py first seen with mtime 1722005915.9423795
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\utils\inspect.py first seen with mtime 1722005916.2451468
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\contenttypes\checks.py first seen with mtime 1722005912.938696
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\asyncio\mixins.py first seen with mtime 1719350232.8837907
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\models\fields\json.py first seen with mtime 1722005915.9703856
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\models\functions\__init__.py first seen with mtime 1722005915.9793868
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\servers\__init__.py first seen with mtime 1722005915.8323512
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\DLLs\_lzma.pyd first seen with mtime 1719350232.6557395
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\collections\abc.py first seen with mtime 1719350233.0238218
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\datetime.py first seen with mtime 1719350233.128846
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\email\mime\message.py first seen with mtime 1719350233.1698558
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\template\context.py first seen with mtime 1722005916.1581254
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\getpass.py first seen with mtime 1719350233.7329822
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\sqlparse\exceptions.py first seen with mtime 1722005910.2460494
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\hmac.py first seen with mtime 1719350233.7399833
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\urllib\response.py first seen with mtime 1719350237.1437495
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\encodings\__init__.py first seen with mtime 1719350233.4009087
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\decimal.py first seen with mtime 1719350233.14685
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\email\charset.py first seen with mtime 1719350233.1548517
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\files\uploadedfile.py first seen with mtime 1722005915.7463312
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\wsgiref\__init__.py first seen with mtime 1719350237.1967611
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\migrations\operations\base.py first seen with mtime 1722005915.9367394
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\logging\config.py first seen with mtime 1719350234.7272048
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\sqlparse\engine\__init__.py first seen with mtime 1722005910.2540514
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\transaction.py first seen with mtime 1722005915.8366287
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\migrations\operations\models.py first seen with mtime 1722005915.9393792
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\sessions\apps.py first seen with mtime 1722005915.0201638
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\admin\views\autocomplete.py first seen with mtime 1722005912.2790394
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\models\functions\datetime.py first seen with mtime 1722005915.9823878
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\staticfiles\management\__init__.py first seen with mtime 1722005915.6823165
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\models\constants.py first seen with mtime 1722005915.9463816
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\asyncio\transports.py first seen with mtime 1719350232.8987937
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\staticfiles\views.py first seen with mtime 1722005915.6813164
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\template\__init__.py first seen with mtime 1722005916.1541257
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\models\sql\query.py first seen with mtime 1722005915.994391
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\email\mime\multipart.py first seen with mtime 1719350233.1708562
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\template\smartif.py first seen with mtime 1722005916.1701283
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\difflib.py first seen with mtime 1719350233.1478512
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\template\base.py first seen with mtime 1722005916.1561253
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\sqlparse\filters\output.py first seen with mtime 1722005910.2630537
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\forms\utils.py first seen with mtime 1722005916.0133946
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\backends\base\introspection.py first seen with mtime 1722005915.8513546
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\template\backends\django.py first seen with mtime 1722005916.1741307
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\admin\templatetags\admin_list.py first seen with mtime 1722005912.2730377
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\models\fields\proxy.py first seen with mtime 1722005915.9723856
+File C:\Projetos\Lembretes\aplicativo_lembretes\lembretes\urls.py first seen with mtime 1722187560.3535624
+File C:\Projetos\Lembretes\aplicativo_lembretes\notificacoes\models.py first seen with mtime 1722006199.4558837
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\utils.py first seen with mtime 1722005915.8373518
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\apps\registry.py first seen with mtime 1722005910.9452083
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\handlers\wsgi.py first seen with mtime 1722005915.7633352
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\signals.py first seen with mtime 1722005915.6983202
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\email\generator.py first seen with mtime 1719350233.1608534
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\utils\http.py first seen with mtime 1722005916.2441466
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\concurrent\futures\_base.py first seen with mtime 1719350233.0358243
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\files\base.py first seen with mtime 1722005915.7403307
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\models\sql\constants.py first seen with mtime 1722005915.9913905
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\auth\decorators.py first seen with mtime 1722005912.5946174
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\admin\views\__init__.py first seen with mtime 1722005912.278039
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\serializers\__init__.py first seen with mtime 1722005915.822348
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\backends\base\operations.py first seen with mtime 1722005915.852355
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\staticfiles\__init__.py first seen with mtime 1722005915.6703107
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\checks\security\csrf.py first seen with mtime 1722005915.735328
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\staticfiles\handlers.py first seen with mtime 1722005915.675311
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\ctypes\wintypes.py first seen with mtime 1719350233.0828357
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\serializers\python.py first seen with mtime 1722005915.8273492
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\sites\__init__.py first seen with mtime 1722005915.3482373
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\staticfiles\management\commands\__init__.py first seen with mtime 1722005915.6833167
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\models\functions\comparison.py first seen with mtime 1722005915.9803884
+File C:\Projetos\Lembretes\aplicativo_lembretes\aplicativo_lembretes\__init__.py first seen with mtime 1722005947.9337964
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\warnings.py first seen with mtime 1719350237.1867585
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\templatetags\__init__.py first seen with mtime 1722005916.1861322
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\zoneinfo\__init__.py first seen with mtime 1719350237.3347914
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\templatetags\i18n.py first seen with mtime 1722005916.1881325
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\re\_casefix.py first seen with mtime 1719350234.9252498
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\messages\utils.py first seen with mtime 1722005914.4220288
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\utils\module_loading.py first seen with mtime 1722005916.252147
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\asyncio\streams.py first seen with mtime 1719350232.893793
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\types.py first seen with mtime 1719350237.0817342
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\email\mime\__init__.py first seen with mtime 1719350228.847885
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\files\storage\memory.py first seen with mtime 1722005915.756333
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\email\header.py first seen with mtime 1719350233.1618538
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\DLLs\_sqlite3.pyd first seen with mtime 1719350232.666742
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\__init__.py first seen with mtime 1722005910.939206
+File C:\Projetos\Lembretes\aplicativo_lembretes\aplicativo_lembretes\settings.py first seen with mtime 1722349920.0894468
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\shutil.py first seen with mtime 1719350234.954256
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\urllib\__init__.py first seen with mtime 1719350230.906346
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\migrations\operations\special.py first seen with mtime 1722005915.9403794
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\models\lookups.py first seen with mtime 1722005915.9553835
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\files\storage\base.py first seen with mtime 1722005915.752334
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\concurrent\futures\thread.py first seen with mtime 1719350233.0348246
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\__init__.py first seen with mtime 1722005915.6923187
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\struct.py first seen with mtime 1719350236.9206984
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\email\headerregistry.py first seen with mtime 1719350233.1628532
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\email\mime\text.py first seen with mtime 1719350233.1718564
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\views\generic\base.py first seen with mtime 1722005916.2941563
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\models\fields\related.py first seen with mtime 1722005915.973386
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\utils\safestring.py first seen with mtime 1722005916.2561474
+File C:\Projetos\Lembretes\aplicativo_lembretes\aplicativo_lembretes\views.py first seen with mtime 1722282278.9065168
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\files\storage\filesystem.py first seen with mtime 1722005915.7533326
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\html\__init__.py first seen with mtime 1719350233.7459843
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\auth\forms.py first seen with mtime 1722005912.5966177
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\asyncio\windows_utils.py first seen with mtime 1719350232.9037952
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\sqlparse\engine\grouping.py first seen with mtime 1722005910.2570522
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\template\loaders\cached.py first seen with mtime 1722005916.1831317
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\models\sql\__init__.py first seen with mtime 1722005915.987389
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\tempfile.py first seen with mtime 1719350236.9287002
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\asyncio\proactor_events.py first seen with mtime 1719350232.8837907
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\models\fields\related_lookups.py first seen with mtime 1722005915.9763865
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\utils\formats.py first seen with mtime 1722005916.239144
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\auth\models.py first seen with mtime 1722005912.6006193
+File C:\Projetos\Lembretes\aplicativo_lembretes\manage.py first seen with mtime 1722005947.891788
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\files\temp.py first seen with mtime 1722005915.7453313
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\shortcuts.py first seen with mtime 1722005910.9422064
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\cache\backends\base.py first seen with mtime 1722005915.7063222
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\utils\regex_helper.py first seen with mtime 1722005916.2551475
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\utils\translation\trans_real.py first seen with mtime 1722005916.2721517
+File C:\Projetos\Lembretes\aplicativo_lembretes\lembretes\models.py first seen with mtime 1722203918.945205
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\concurrent\__init__.py first seen with mtime 1719350233.0518286
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\admin\templatetags\__init__.py first seen with mtime 1722005912.2710378
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\_compression.py first seen with mtime 1719350237.3507948
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\template\loaders\__init__.py first seen with mtime 1722005916.179131
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\files\storage\mixins.py first seen with mtime 1722005915.7573338
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\utils\crypto.py first seen with mtime 1722005916.2251413
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\zoneinfo\_common.py first seen with mtime 1719350237.332791
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\typing.py first seen with mtime 1719350237.0827348
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\urllib\parse.py first seen with mtime 1719350237.1407478
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\models\functions\text.py first seen with mtime 1722005915.9853892
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\admin\filters.py first seen with mtime 1722005911.4743268
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_futures.py first seen with mtime 1719350232.8747888
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\models\query.py first seen with mtime 1722005915.9593842
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\template\engine.py first seen with mtime 1722005916.1631274
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\DLLs\_wmi.pyd first seen with mtime 1719350232.6747434
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\admin\templatetags\admin_modify.py first seen with mtime 1722005912.2740383
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\mail\utils.py first seen with mtime 1722005915.7673357
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\models\enums.py first seen with mtime 1722005915.9503825
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\utils\timesince.py first seen with mtime 1722005916.2601485
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\asgiref\__init__.py first seen with mtime 1722005910.7301595
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_tasks.py first seen with mtime 1719350232.8767889
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\hashlib.py first seen with mtime 1719350233.7379827
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\textwrap.py first seen with mtime 1719350236.9307003
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\utils\translation\__init__.py first seen with mtime 1722005916.2661493
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\subprocess.py first seen with mtime 1719350236.9216983
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\admin\helpers.py first seen with mtime 1722005911.4763277
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\asyncio\staggered.py first seen with mtime 1719350232.891796
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\sqlparse\lexer.py first seen with mtime 1722005910.2490504
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\quopri.py first seen with mtime 1719350234.9222486
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\dispatch\dispatcher.py first seen with mtime 1722005916.0003922
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\views\generic\__init__.py first seen with mtime 1722005916.293156
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\forms\forms.py first seen with mtime 1722005916.0073934
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\gzip.py first seen with mtime 1719350233.7369838
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\urls\resolvers.py first seen with mtime 1722005916.2111385
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\utils\decorators.py first seen with mtime 1722005916.2331426
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\glob.py first seen with mtime 1719350233.7349815
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\asyncio\queues.py first seen with mtime 1719350232.8857913
+File C:\Projetos\Lembretes\aplicativo_lembretes\notificacoes\admin.py first seen with mtime 1722005974.6981337
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\threading.py first seen with mtime 1719350236.9327009
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\email\utils.py first seen with mtime 1719350233.1978629
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\pkgutil.py first seen with mtime 1719350234.8822412
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\asgiref\current_thread_executor.py first seen with mtime 1722005910.7321596
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\statistics.py first seen with mtime 1719350236.9176977
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\checks\security\__init__.py first seen with mtime 1722005915.7323275
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\sqlparse\tokens.py first seen with mtime 1722005910.2520516
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\json\__init__.py first seen with mtime 1719350234.4611454
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\http\cookie.py first seen with mtime 1722005916.1341207
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\admin\decorators.py first seen with mtime 1722005911.4723263
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\views\generic\list.py first seen with mtime 1722005916.3001585
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\models\deletion.py first seen with mtime 1722005915.9483814
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\DLLs\_uuid.pyd first seen with mtime 1719350232.673744
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\asyncio\constants.py first seen with mtime 1719350232.8767889
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\models\base.py first seen with mtime 1722005915.944381
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\files\__init__.py first seen with mtime 1722005915.73833
+File C:\Projetos\Lembretes\aplicativo_lembretes\lembretes\forms.py first seen with mtime 1722178687.4181676
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\http\client.py first seen with mtime 1719350233.7609878
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\admin\exceptions.py first seen with mtime 1722005911.4733267
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\handlers\base.py first seen with mtime 1722005915.7603343
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\template\defaulttags.py first seen with mtime 1722005916.1611264
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\signal.py first seen with mtime 1719350234.9552562
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\template\response.py first seen with mtime 1722005916.1691284
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\auth\hashers.py first seen with mtime 1722005912.597618
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\urls\utils.py first seen with mtime 1722005916.2121382
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\asyncio\format_helpers.py first seen with mtime 1719350232.8797898
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\backends\__init__.py first seen with mtime 1722005915.838352
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\template\utils.py first seen with mtime 1722005916.1711287
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\handlers\exception.py first seen with mtime 1722005915.7613342
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\sqlparse\keywords.py first seen with mtime 1722005910.2480502
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\urls\__init__.py first seen with mtime 1722005916.2051373
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\validators.py first seen with mtime 1722005915.7013211
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\auth\tokens.py first seen with mtime 1722005912.6056197
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\checks\model_checks.py first seen with mtime 1722005915.7223258
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\cache\backends\locmem.py first seen with mtime 1722005915.7123237
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\files\move.py first seen with mtime 1722005915.7433307
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\checks\templates.py first seen with mtime 1722005915.7263267
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\dispatch\__init__.py first seen with mtime 1722005915.9983916
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\utils\choices.py first seen with mtime 1722005916.223141
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\forms\formsets.py first seen with mtime 1722005916.0083933
+File C:\Projetos\Lembretes\aplicativo_lembretes\anexos\models.py first seen with mtime 1722006199.4558837
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\pprint.py first seen with mtime 1719350234.8882413
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\utils\encoding.py first seen with mtime 1722005916.2361436
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\asyncio\trsock.py first seen with mtime 1719350232.8997946
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\operator.py first seen with mtime 1719350234.8692362
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\models\fields\related_descriptors.py first seen with mtime 1722005915.9753866
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\backends\sqlite3\creation.py first seen with mtime 1722005915.907371
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\admin\utils.py first seen with mtime 1722005911.4833283
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\mail\message.py first seen with mtime 1722005915.7663357
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\sqlparse\engine\filter_stack.py first seen with mtime 1722005910.2550523
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\asyncio\protocols.py first seen with mtime 1719350232.884791
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\__init__.py first seen with mtime 1722005911.4653244
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\DLLs\unicodedata.pyd first seen with mtime 1719350232.6277342
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\bz2.py first seen with mtime 1719350233.0148199
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\utils\termcolors.py first seen with mtime 1722005916.258149
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\checks\files.py first seen with mtime 1722005915.720325
+File C:\Projetos\Lembretes\aplicativo_lembretes\prioridades\models.py first seen with mtime 1722006199.4558837
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\middleware\__init__.py first seen with mtime 1722005916.1401222
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\asyncio\events.py first seen with mtime 1719350232.87879
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\asyncio\locks.py first seen with mtime 1719350232.8817904
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\template\autoreload.py first seen with mtime 1722005916.155125
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\enum.py first seen with mtime 1719350233.7209785
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\email\iterators.py first seen with mtime 1719350233.1648545
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\models\functions\window.py first seen with mtime 1722005915.9866567
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\sqlparse\filters\__init__.py first seen with mtime 1722005910.2600527
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\files\images.py first seen with mtime 1722005915.7413304
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\re\_compiler.py first seen with mtime 1719350234.9262497
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\templatetags\cache.py first seen with mtime 1722005916.1874235
+File C:\Projetos\Lembretes\aplicativo_lembretes\notificacoes\apps.py first seen with mtime 1722005974.7011344
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\json\scanner.py first seen with mtime 1719350234.458145
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\uuid.py first seen with mtime 1719350237.1657531
+File C:\Projetos\Lembretes\aplicativo_lembretes\listas\admin.py first seen with mtime 1722005975.8859105
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\DLLs\_socket.pyd first seen with mtime 1719350232.664741
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\admin\models.py first seen with mtime 1722005911.477328
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\email\encoders.py first seen with mtime 1719350233.1578524
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\utils\lorem_ipsum.py first seen with mtime 1722005916.2511468
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\sessions\exceptions.py first seen with mtime 1722005915.0231647
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\email\message.py first seen with mtime 1719350233.1658537
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\sqlparse\sql.py first seen with mtime 1722005910.2500505
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\models\aggregates.py first seen with mtime 1722005915.9433806
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\forms\renderers.py first seen with mtime 1722005916.0113964
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\models\fields\__init__.py first seen with mtime 1722005915.9653852
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\sqlparse\formatter.py first seen with mtime 1722005910.2470503
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\models\constraints.py first seen with mtime 1722005915.9473815
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\__init__.py first seen with mtime 1719350234.7982213
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\utils\log.py first seen with mtime 1722005916.2501464
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\concurrent\futures\__init__.py first seen with mtime 1719350233.0368247
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\utils\tree.py first seen with mtime 1722005916.2631493
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\utils\autoreload.py first seen with mtime 1722005916.2201414
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\views\decorators\cache.py first seen with mtime 1722005916.2831538
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\asyncio\coroutines.py first seen with mtime 1719350232.8777902
+File C:\Projetos\Lembretes\aplicativo_lembretes\usuarios\admin.py first seen with mtime 1722005973.469312
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\sqlparse\filters\reindent.py first seen with mtime 1722005910.2650537
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\views\i18n.py first seen with mtime 1722005916.2791545
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\tokenize.py first seen with mtime 1719350236.995715
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\signing.py first seen with mtime 1722005915.6993213
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\checks\translation.py first seen with mtime 1722005915.7283268
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\email\_policybase.py first seen with mtime 1719350233.202862
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\contenttypes\models.py first seen with mtime 1722005912.941696
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\files\locks.py first seen with mtime 1722005915.742331
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\_markupbase.py first seen with mtime 1719350237.3517952
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\staticfiles\checks.py first seen with mtime 1722005915.6733108
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\auth\urls.py first seen with mtime 1722005912.60662
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\asyncio\taskgroups.py first seen with mtime 1719350232.8957932
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\ast.py first seen with mtime 1719350232.8717883
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\bisect.py first seen with mtime 1719350233.0138197
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\admin\templatetags\base.py first seen with mtime 1722005912.276039
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\sites\shortcuts.py first seen with mtime 1722005915.3592398
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\backends\base\client.py first seen with mtime 1722005915.8473537
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\json\decoder.py first seen with mtime 1719350234.4531446
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\auth\views.py first seen with mtime 1722005912.6096213
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_subprocess.py first seen with mtime 1719350232.8747888
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\mail\__init__.py first seen with mtime 1722005915.7643354
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\keyword.py first seen with mtime 1719350234.485151
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\management\base.py first seen with mtime 1722005915.7793403
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\views\generic\detail.py first seen with mtime 1722005916.2971594
+File C:\Projetos\Lembretes\aplicativo_lembretes\listas\models.py first seen with mtime 1722006199.4558837
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\wsgiref\simple_server.py first seen with mtime 1719350237.1927598
+File C:\Projetos\Lembretes\aplicativo_lembretes\anexos\__init__.py first seen with mtime 1722005978.361582
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\template\library.py first seen with mtime 1722005916.1651282
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\messages\constants.py first seen with mtime 1722005914.4170299
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\sqlparse\filters\right_margin.py first seen with mtime 1722005910.2660537
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\auth\apps.py first seen with mtime 1722005912.5866158
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\serializers\base.py first seen with mtime 1722005915.8233478
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\backends\ddl_references.py first seen with mtime 1722005915.8403525
+File C:\Projetos\Lembretes\aplicativo_lembretes\anexos\admin.py first seen with mtime 1722005978.3505785
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\heapq.py first seen with mtime 1719350233.738983
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\views\decorators\__init__.py first seen with mtime 1722005916.2811546
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\utils\datastructures.py first seen with mtime 1722005916.2261415
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\mimetypes.py first seen with mtime 1719350234.751211
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\lzma.py first seen with mtime 1719350234.7472093
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\template\loaders\base.py first seen with mtime 1722005916.1821313
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\utils\translation\reloader.py first seen with mtime 1722005916.2671506
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\checks\security\sessions.py first seen with mtime 1722005915.7363284
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\views\defaults.py first seen with mtime 1722005916.278154
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\auth\backends.py first seen with mtime 1722005912.588617
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\DLLs\_asyncio.pyd first seen with mtime 1719350232.637736
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py first seen with mtime 1719350232.8867915
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\http\__init__.py first seen with mtime 1719350233.7659903
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\html\parser.py first seen with mtime 1719350233.7429836
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\sessions\backends\__init__.py first seen with mtime 1722005915.027165
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\models\sql\where.py first seen with mtime 1722005915.9973915
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\cache\__init__.py first seen with mtime 1722005915.7033212
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py first seen with mtime 1719350232.8737886
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\_weakrefset.py first seen with mtime 1719350237.3667996
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\migrations\operations\fields.py first seen with mtime 1722005915.9373782
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\apps\__init__.py first seen with mtime 1722005910.9432075
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\templatetags\static.py first seen with mtime 1722005916.191136
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\template\backends\__init__.py first seen with mtime 1722005916.1721292
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\auth\admin.py first seen with mtime 1722005912.5856159
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\sqlparse\engine\statement_splitter.py first seen with mtime 1722005910.2590528
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\encodings\utf_8.py first seen with mtime 1719350233.396908
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\asyncio\subprocess.py first seen with mtime 1719350232.8947933
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\middleware\cache.py first seen with mtime 1722005916.1421216
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\contextvars.py first seen with mtime 1719350233.0568297
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\templatetags\tz.py first seen with mtime 1722005916.1931345
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\queue.py first seen with mtime 1719350234.9212484
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\checks\urls.py first seen with mtime 1722005915.7293267
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\traceback.py first seen with mtime 1719350237.008718
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\files\storage\__init__.py first seen with mtime 1722005915.7503347
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\utils\_os.py first seen with mtime 1722005916.2151382
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\staticfiles\finders.py first seen with mtime 1722005915.674311
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\template\loaders\app_directories.py first seen with mtime 1722005916.181131
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\views\static.py first seen with mtime 1722005916.280154
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\core\management\commands\runserver.py first seen with mtime 1722005915.8053453
+File C:\Projetos\Lembretes\aplicativo_lembretes\aplicativo_lembretes\urls.py first seen with mtime 1722280501.4718802
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\reprlib.py first seen with mtime 1719350234.9242494
+File C:\Projetos\Lembretes\aplicativo_lembretes\lembretes\templates\lembretes first seen with mtime 1722179814.5658462
+File C:\Projetos\Lembretes\aplicativo_lembretes\lembretes\templates\lembretes\categoria_list.html first seen with mtime 1722090089.199942
+File C:\Projetos\Lembretes\aplicativo_lembretes\lembretes\templates\lembretes\create_categoria.html first seen with mtime 1722090089.199942
+File C:\Projetos\Lembretes\aplicativo_lembretes\lembretes\templates\lembretes\create_lembrete.html first seen with mtime 1722177383.9298222
+File C:\Projetos\Lembretes\aplicativo_lembretes\lembretes\templates\lembretes\delete_categoria.html first seen with mtime 1722090089.1989403
+File C:\Projetos\Lembretes\aplicativo_lembretes\lembretes\templates\lembretes\delete_lembrete.html first seen with mtime 1722089345.1723187
+File C:\Projetos\Lembretes\aplicativo_lembretes\lembretes\templates\lembretes\edit_categoria.html first seen with mtime 1722090089.199942
+File C:\Projetos\Lembretes\aplicativo_lembretes\lembretes\templates\lembretes\edit_lembrete.html first seen with mtime 1722177289.1705515
+File C:\Projetos\Lembretes\aplicativo_lembretes\lembretes\templates\lembretes\index.html first seen with mtime 1722349746.838448
+File C:\Projetos\Lembretes\aplicativo_lembretes\categorias\templates\categorias first seen with mtime 1722104946.4341066
+File C:\Projetos\Lembretes\aplicativo_lembretes\categorias\templates\categorias\lista_categorias.html first seen with mtime 1722279678.8676684
+File C:\Projetos\Lembretes\aplicativo_lembretes\templates\registration first seen with mtime 1722282068.6469085
+File C:\Projetos\Lembretes\aplicativo_lembretes\templates\registration\login.html first seen with mtime 1722281929.8217597
+File C:\Projetos\Lembretes\aplicativo_lembretes\templates\registration\register.html first seen with mtime 1722281947.8175228
+File C:\Projetos\Lembretes\aplicativo_lembretes\usuarios\templates\usuarios first seen with mtime 1722186838.810407
+File C:\Projetos\Lembretes\aplicativo_lembretes\usuarios\templates\usuarios\login.html first seen with mtime 1722280100.1108232
+File C:\Projetos\Lembretes\aplicativo_lembretes\usuarios\templates\usuarios\register.html first seen with mtime 1722187296.3966012
+(0.000) SELECT "lembretes_lembrete"."id", "lembretes_lembrete"."titulo", "lembretes_lembrete"."descricao", "lembretes_lembrete"."data_lembrete", "lembretes_lembrete"."prioridade", "lembretes_lembrete"."categoria_id", "lembretes_lembrete"."user_id" FROM "lembretes_lembrete"; args=(); alias=default
+"GET / HTTP/1.1" 200 1082
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\stringprep.py first seen with mtime 1719350236.919698
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\contenttypes\migrations\0002_remove_content_type_name.py first seen with mtime 1722005913.2847729
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\template\context_processors.py first seen with mtime 1722005916.1591265
+File C:\Projetos\Lembretes\aplicativo_lembretes\listas\migrations\__init__.py first seen with mtime 1722005975.900913
+File C:\Projetos\Lembretes\aplicativo_lembretes\prioridades\migrations\__init__.py first seen with mtime 1722005977.1475997
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\contenttypes\migrations\0001_initial.py first seen with mtime 1722005913.2827728
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\auth\migrations\0005_alter_user_last_login_null.py first seen with mtime 1722005912.9206915
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\auth\migrations\0010_alter_group_name_max_length.py first seen with mtime 1722005912.9276922
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\auth\context_processors.py first seen with mtime 1722005912.5936172
+File C:\Projetos\Lembretes\aplicativo_lembretes\notificacoes\migrations\0001_initial.py first seen with mtime 1722006400.0824113
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\auth\migrations\0002_alter_permission_name_max_length.py first seen with mtime 1722005912.9176905
+File C:\Projetos\Lembretes\aplicativo_lembretes\categorias\migrations\__init__.py first seen with mtime 1722005972.2550352
+File C:\Projetos\Lembretes\aplicativo_lembretes\usuarios\migrations\__init__.py first seen with mtime 1722005973.4833145
+File C:\Projetos\Lembretes\aplicativo_lembretes\categorias\migrations\0004_perfil.py first seen with mtime 1722203771.5929415
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\auth\migrations\__init__.py first seen with mtime 1722005912.9306934
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\middleware\clickjacking.py first seen with mtime 1722005916.1441228
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\migrations\recorder.py first seen with mtime 1722005915.9293773
+File C:\Projetos\Lembretes\aplicativo_lembretes\anexos\migrations\0001_initial.py first seen with mtime 1722006400.0854108
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\migrations\executor.py first seen with mtime 1722005915.9193747
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\auth\migrations\0008_alter_user_username_max_length.py first seen with mtime 1722005912.9256918
+File C:\Projetos\Lembretes\aplicativo_lembretes\lembretes\migrations\0005_remove_lembrete_categoria_lembrete_categoria.py first seen with mtime 1722178766.8942523
+File C:\Projetos\Lembretes\aplicativo_lembretes\aplicativo_lembretes\wsgi.py first seen with mtime 1722005947.9327962
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\sessions\migrations\__init__.py first seen with mtime 1722005915.3422365
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\sessions\backends\db.py first seen with mtime 1722005915.0331676
+File C:\Projetos\Lembretes\aplicativo_lembretes\lembretes\migrations\0006_lembrete_user.py first seen with mtime 1722203771.5949423
+File C:\Projetos\Lembretes\aplicativo_lembretes\categorias\migrations\0005_remove_perfil_data_nascimento_and_more.py first seen with mtime 1722221806.9878964
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\messages\storage\session.py first seen with mtime 1722005914.429031
+File C:\Projetos\Lembretes\aplicativo_lembretes\notificacoes\migrations\__init__.py first seen with mtime 1722005974.7111363
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\migrations\graph.py first seen with mtime 1722005915.921375
+File C:\Projetos\Lembretes\aplicativo_lembretes\usuarios\migrations\0001_initial.py first seen with mtime 1722006400.0924127
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\migrations\loader.py first seen with mtime 1722005915.9223752
+File C:\Projetos\Lembretes\aplicativo_lembretes\categorias\migrations\0002_remove_categoria_prioridade_and_more.py first seen with mtime 1722089797.0467563
+File C:\Projetos\Lembretes\aplicativo_lembretes\prioridades\migrations\0001_initial.py first seen with mtime 1722006400.0744083
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\auth\migrations\0001_initial.py first seen with mtime 1722005912.9166903
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\auth\migrations\0006_require_contenttypes_0002.py first seen with mtime 1722005912.922691
+File C:\Projetos\Lembretes\aplicativo_lembretes\categorias\migrations\0001_initial.py first seen with mtime 1722006400.0764084
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\auth\migrations\0009_alter_user_last_name_max_length.py first seen with mtime 1722005912.9266927
+File C:\Projetos\Lembretes\aplicativo_lembretes\listas\migrations\0001_initial.py first seen with mtime 1722006400.0874128
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\auth\migrations\0011_update_proxy_permissions.py first seen with mtime 1722005912.9286928
+File C:\Projetos\Lembretes\aplicativo_lembretes\listas\migrations\0002_initial.py first seen with mtime 1722006400.0894132
+File C:\Projetos\Lembretes\aplicativo_lembretes\lembretes\migrations\__init__.py first seen with mtime 1722005971.054581
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\auth\migrations\0012_alter_user_first_name_max_length.py first seen with mtime 1722005912.929693
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\db\models\sql\compiler.py first seen with mtime 1722005915.9893894
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\messages\storage\fallback.py first seen with mtime 1722005914.4280322
+File C:\Projetos\Lembretes\aplicativo_lembretes\lembretes\migrations\0003_remove_lembrete_categoria_lembrete_categoria.py first seen with mtime 1722177077.8526454
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\auth\migrations\0003_alter_user_email_max_length.py first seen with mtime 1722005912.9186907
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\sessions\serializers.py first seen with mtime 1722005915.0261648
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\admin\migrations\0003_logentry_add_action_flag_choices.py first seen with mtime 1722005912.044001
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\sessions\migrations\0001_initial.py first seen with mtime 1722005915.3412366
+File C:\Projetos\Lembretes\aplicativo_lembretes\lembretes\migrations\0007_alter_lembrete_user.py first seen with mtime 1722203999.9565413
+File C:\Projetos\Lembretes\aplicativo_lembretes\lembretes\migrations\0004_alter_lembrete_prioridade.py first seen with mtime 1722178446.0330524
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\messages\storage\cookie.py first seen with mtime 1722005914.42703
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\admin\migrations\0001_initial.py first seen with mtime 1722005912.0419993
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\admin\migrations\__init__.py first seen with mtime 1722005912.0450017
+File C:\Projetos\Lembretes\aplicativo_lembretes\anexos\migrations\__init__.py first seen with mtime 1722005978.3635812
+File C:\Projetos\Lembretes\aplicativo_lembretes\lembretes\migrations\0001_initial.py first seen with mtime 1722006400.080411
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\contenttypes\migrations\__init__.py first seen with mtime 1722005913.285773
+File C:\Projetos\Lembretes\aplicativo_lembretes\categorias\migrations\0003_lembrete.py first seen with mtime 1722177077.8506458
+File C:\Projetos\Lembretes\aplicativo_lembretes\lembretes\migrations\0002_lembrete_categoria_alter_lembrete_prioridade_and_more.py first seen with mtime 1722089797.0507562
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\auth\migrations\0004_alter_user_username_opts.py first seen with mtime 1722005912.9196901
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\messages\context_processors.py first seen with mtime 1722005914.4190285
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\auth\migrations\0007_alter_validators_add_error_messages.py first seen with mtime 1722005912.9236922
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\encodings\idna.py first seen with mtime 1719350233.3318927
+File C:\Projetos\Lembretes\ambiente\Lib\site-packages\django\contrib\admin\migrations\0002_logentry_remove_auto_add.py first seen with mtime 1722005912.0429993
+File C:\Projetos\Lembretes\aplicativo_lembretes\aplicativo_lembretes\settings.py previous mtime: 1722349920.0894468, current mtime: 1722350068.463701
+C:\Projetos\Lembretes\aplicativo_lembretes\aplicativo_lembretes\settings.py notified as changed. Signal results: [(<function template_changed at 0x000002D03E8004A0>, None), (<function translation_file_changed at 0x000002D03F57D4E0>, None)].
+C:\Projetos\Lembretes\aplicativo_lembretes\aplicativo_lembretes\settings.py changed, reloading.

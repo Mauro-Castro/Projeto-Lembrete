@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Anexos</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1>Lista de Anexos</h1>
+        <a href="{% url 'create_anexo' lembrete.id %}" class="btn btn-primary mb-3">Criar Novo Anexo</a>
+
+        <ul class="list-group">
+        {% for anexo in anexos %}
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                {{ anexo.descricao }}
+                <div>
+                    <a href="{% url 'edit_anexo' anexo.id %}" class="btn btn-warning btn-sm mr-2">Editar</a>
+                    <a href="{% url 'delete_anexo' anexo.id %}" class="btn btn-danger btn-sm">Excluir</a>
+                </div>
+            </li>
+        {% empty %}
+            <li class="list-group-item">Nenhum anexo encontrado.</li>
+        {% endfor %}
+        </ul>
+        <a href="{% url 'edit_lembrete' lembrete.id %}" class="btn btn-secondary mt-3">Voltar para Editar Lembrete</a>
+    </div>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

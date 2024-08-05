@@ -1,0 +1,9 @@
+{% block content %}
+<h1>Minhas Listas</h1>
+<ul>
+    {% for lista in listas %}
+    <li>{{ lista.nome }} - <a href="{% url 'edit_lista' lista.id %}">Editar</a> | <a href="{% url 'delete_lista' lista.id %}">Deletar</a></li>
+    {% endfor %}
+</ul>
+<a href="{% url 'create_lista' %}">Criar Nova Lista</a>
+{% endblock %}

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Excluir Categoria</title>
+</head>
+<body>
+    <h1>Excluir Categoria</h1>
+    <p>Tem certeza de que deseja excluir a categoria "{{ categoria.nome }}"?</p>
+    <form method="post">
+        {% csrf_token %}
+        <button type="submit">Sim, excluir</button>
+    </form>
+    <a href="{% url 'categoria_list' %}">Cancelar</a>
+</body>
+</html>

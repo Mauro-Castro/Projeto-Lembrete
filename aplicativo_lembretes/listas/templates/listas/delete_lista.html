@@ -1,0 +1,9 @@
+{% block content %}
+<h1>Deletar Lista</h1>
+<p>Tem certeza que deseja deletar a lista "{{ lista.nome }}"?</p>
+<form method="post">
+    {% csrf_token %}
+    <button type="submit">Deletar</button>
+</form>
+<a href="{% url 'lista_listas' %}">Cancelar</a>
+{% endblock %}

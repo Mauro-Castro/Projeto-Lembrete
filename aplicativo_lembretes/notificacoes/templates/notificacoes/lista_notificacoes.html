@@ -1,0 +1,13 @@
+{% block content %}
+  <h2>Notificações</h2>
+  <ul>
+    {% for notificacao in notificacoes %}
+      <li>
+        <strong>{{ notificacao.titulo }}</strong>: {{ notificacao.mensagem }} em {{ notificacao.data_notificacao }}
+        {% if not notificacao.lida %}
+          <a href="{% url 'marcar_como_lida' notificacao.id %}">Marcar como lida</a>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+{% endblock %}
