@@ -4,32 +4,108 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Editar Anexo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #343a40;
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+        .errors {
+            border: 1px solid #e3342f;
+            background-color: #f8d7da;
+            color: #721c24;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        .errors ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .errors li {
+            margin-bottom: 5px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        form label {
+            margin-bottom: 5px;
+            color: #495057;
+        }
+        form input[type="text"],
+        form input[type="file"],
+        form select,
+        form textarea {
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ced4da;
+            border-radius: 4px;
+        }
+        form button,
+        .btn-secondary {
+            padding: 10px 20px;
+            margin-top: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        form button {
+            background-color: #007bff;
+            color: #fff;
+        }
+        .btn-secondary {
+            background-color: #6c757d;
+            color: #fff;
+            text-decoration: none;
+            text-align: center;
+        }
+        .btn-secondary:hover,
+        form button:hover {
+            opacity: 0.9;
+        }
+    </style>
 </head>
 <body>
-    <h1>Editar Anexo</h1>
-    
-    {% if form.errors %}
-        <div class="errors">
-            <ul>
-                {% for field in form %}
-                    {% for error in field.errors %}
-                        <li>{{ field.label }}: {{ error }}</li>
+    <div class="container">
+        <h1>Editar Anexo</h1>
+        
+        {% if form.errors %}
+            <div class="errors">
+                <ul>
+                    {% for field in form %}
+                        {% for error in field.errors %}
+                            <li>{{ field.label }}: {{ error }}</li>
+                        {% endfor %}
                     {% endfor %}
-                {% endfor %}
-                {% if form.non_field_errors %}
-                    {% for error in form.non_field_errors %}
-                        <li>{{ error }}</li>
-                    {% endfor %}
-                {% endif %}
-            </ul>
-        </div>
-    {% endif %}
-    
-    <form method="post" enctype="multipart/form-data" action="{% url 'edit_anexo' anexo.pk %}">
-        {% csrf_token %}
-        {{ form.as_p }}
-        <button type="submit">Salvar</button>
-        <a href="{% url 'edit_lembrete' anexo.lembrete.pk %}" class="btn btn-secondary">Voltar</a>
-    </form>
+                    {% if form.non_field_errors %}
+                        {% for error in form.non_field_errors %}
+                            <li>{{ error }}</li>
+                        {% endfor %}
+                    {% endif %}
+                </ul>
+            </div>
+        {% endif %}
+        
+        <form method="post" enctype="multipart/form-data" action="{% url 'edit_anexo' anexo.pk %}">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button type="submit">Salvar</button>
+            <a href="{% url 'edit_lembrete' anexo.lembrete.pk %}" class="btn btn-secondary">Voltar</a>
+        </form>
+    </div>
 </body>
 </html>
