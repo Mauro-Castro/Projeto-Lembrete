@@ -21,7 +21,7 @@ def index(request):
 @login_required
 def edit_lembrete(request, id):
     lembrete = get_object_or_404(Lembrete, id=id)
-    listas = Lista.objects.filter(usuario=request.user)
+    listas = Lista.objects.all()
     lembrete_listas_ids = list(lembrete.listas.values_list('id', flat=True))
     
     if request.method == 'POST':
@@ -128,12 +128,13 @@ def create_lembrete(request):
             return redirect('lista_lembretes')
     else:
         form = LembreteForm()
-        listas = Lista.objects.filter(usuario=request.user)
+        listas = Lista.objects.all()
     
     return render(request, 'lembretes/create_lembrete.html', {
         'form': form,
         'listas': listas
     })
+
 def lista_notificacoes(request):
     notificacoes = Notificacao.objects.filter(user=request.user)
     return render(request, 'lembretes/notificacoes.html', {'notificacoes': notificacoes})

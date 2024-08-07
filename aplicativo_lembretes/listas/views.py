@@ -29,7 +29,7 @@ def edit_lista(request, id):
         form = ListaForm(request.POST, instance=lista)
         if form.is_valid():
             form.save()
-            return redirect('lista_listas')  # Nome da view que lista todas as listas
+            return redirect('lista_listas')
     else:
         form = ListaForm(instance=lista)
     return render(request, 'listas/edit_lista.html', {'form': form})
