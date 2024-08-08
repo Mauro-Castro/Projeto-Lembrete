@@ -34,6 +34,14 @@
                     <div>
                         <h5>{{ lembrete.titulo }}</h5>
                         <p class="mb-0">{{ lembrete.descricao }}</p>
+                        <p class="mb-0"><strong>Categoria:</strong> {{ lembrete.categoria.nome }}</p>
+                        <p class="mb-0"><strong>Prioridade:</strong> {{ lembrete.prioridade.nome }}</p>
+                        <p class="mb-0"><strong>Data:</strong> {{ lembrete.data_lembrete|date:"d/m/Y H:i" }}</p>
+                        <p class="mb-0"><strong>Listas:</strong> 
+                            {% for lista in lembrete.listas.all %}
+                                {{ lista.nome }}{% if not forloop.last %}, {% endif %}
+                            {% endfor %}
+                        </p>
                     </div>
                     <div>
                         <a href="{% url 'edit_lembrete' lembrete.id %}" class="btn btn-warning btn-sm mr-2">Editar</a>
